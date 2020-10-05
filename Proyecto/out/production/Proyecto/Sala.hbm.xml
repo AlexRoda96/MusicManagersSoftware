@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.musicmanagerssoftware.base.Sala" table="sala" schema="musicdb">
+        <id name="id">
+            <column name="id" sql-type="int(10)"/>
+        </id>
+        <property name="nombre">
+            <column name="nombre" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="pais">
+            <column name="pais" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="ciudad">
+            <column name="ciudad" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="direccion">
+            <column name="direccion" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="aforoMax">
+            <column name="aforoMax" sql-type="int(10)" not-null="true"/>
+        </property>
+        <property name="tipoSala">
+            <column name="tipoSala" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="paginaWeb">
+            <column name="paginaWeb" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="numeroTelef">
+            <column name="numeroTelef" sql-type="int(10)" not-null="true"/>
+        </property>
+        <list name="conciertos" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Concierto"/>
+        </list>
+    </class>
+</hibernate-mapping>

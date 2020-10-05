@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.musicmanagerssoftware.base.Disco" table="disco" schema="musicdb">
+        <id name="id">
+            <column name="id" sql-type="int(10)"/>
+        </id>
+        <property name="titulo">
+            <column name="titulo" sql-type="varchar(50)" length="50"/>
+        </property>
+        <property name="fechaPublicacion">
+            <column name="fechaPublicacion" sql-type="date" not-null="true"/>
+        </property>
+        <property name="generoMusical">
+            <column name="generoMusical" sql-type="varchar(50)" length="50" not-null="true"/>
+        </property>
+        <property name="formato">
+            <column name="formato" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="discografica">
+            <column name="discografica" sql-type="varchar(50)" length="50"/>
+        </property>
+        <property name="colaboraciones">
+            <column name="colaboraciones" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="precio">
+            <column name="precio" sql-type="float" precision="-1" not-null="true"/>
+        </property>
+        <property name="canalYoutube">
+            <column name="canalYoutube" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="cuentaSpotify">
+            <column name="cuentaSpotify" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <many-to-one name="artista" class="com.musicmanagerssoftware.base.Artista"/>
+        <many-to-one name="grupo" class="com.musicmanagerssoftware.base.Grupo"/>
+        <list name="canciones" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Cancion"/>
+        </list>
+    </class>
+</hibernate-mapping>

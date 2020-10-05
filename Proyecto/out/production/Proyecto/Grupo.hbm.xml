@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.musicmanagerssoftware.base.Grupo" table="grupo" schema="musicdb">
+        <id name="id">
+            <column name="id" sql-type="int(10)"/>
+        </id>
+        <property name="nombre">
+            <column name="nombre" sql-type="varchar(100)" length="100"/>
+        </property>
+        <property name="annoFormacion">
+            <column name="annoFormacion" sql-type="year(4)" not-null="true"/>
+        </property>
+        <property name="discografica">
+            <column name="discografica" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="generoMusical">
+            <column name="generoMusical" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="paginaWeb">
+            <column name="paginaWeb" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="cuentaInstagram">
+            <column name="cuentaInstagram" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="canalYoutube">
+            <column name="canalYoutube" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <property name="cuentaSpotify">
+            <column name="cuentaSpotify" sql-type="varchar(100)" length="100" not-null="true"/>
+        </property>
+        <list name="artistas" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Artista"/>
+        </list>
+        <list name="canciones" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Cancion"/>
+        </list>
+        <list name="discos" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Disco"/>
+        </list>
+        <list name="giras" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Gira"/>
+        </list>
+        <list name="conciertos" inverse="true">
+            <key/>
+            <one-to-many not-found="ignore" class="com.musicmanagerssoftware.base.Concierto"/>
+        </list>
+    </class>
+</hibernate-mapping>
