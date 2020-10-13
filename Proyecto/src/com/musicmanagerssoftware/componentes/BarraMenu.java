@@ -1,5 +1,9 @@
 package com.musicmanagerssoftware.componentes;
 
+
+import ownLibs.menu.CompMenu;
+import ownLibs.menu.CompMenuItem;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -14,12 +18,16 @@ public class BarraMenu extends JMenuBar {
         MenuArchivo();
         MenuEditar();
         MenuAccion();
-        MenuMostrar();
+        //MenuMostrar();
         MenuHerramientas();
         MenuAjustes();
         MenuAyuda();
     }
 
+    /**
+     * Método que contiene el Menu Archivo, el cual contiene 3 Menu Items (Guardar, exportar y
+     * salir)
+     */
     private void MenuArchivo(){
 
         CompMenu menuArchivo = new CompMenu("Archivo");
@@ -42,6 +50,10 @@ public class BarraMenu extends JMenuBar {
         menuArchivo.add(menuItemSalir);
     }
 
+    /**
+     * Menu que contiene el Menu Editar, el cual contienen 4 Menu Items (Cortar, copiar, pegar y
+     * portapapeles)
+     */
     private void MenuEditar(){
 
         CompMenu menuEditar = new CompMenu("Editar");
@@ -62,6 +74,10 @@ public class BarraMenu extends JMenuBar {
         menuEditar.add(menuItemPortapapeles);
     }
 
+    /**
+     * Método que contiene el Menu Acción, el cual contiene 3 Menu Items (Añadir, eliminar y
+     * buscar):
+     */
     private void MenuAccion(){
 
         CompMenu menuObjeto = new CompMenu("Acción");
@@ -79,6 +95,7 @@ public class BarraMenu extends JMenuBar {
         menuObjeto.add(menuItemBuscar);
     }
 
+    /*
     private void MenuMostrar(){
 
         CompMenu menuMostrar = new CompMenu("Mostrar");
@@ -90,7 +107,12 @@ public class BarraMenu extends JMenuBar {
         CompMenuItem menuItemBuscar = new CompMenuItem("Buscar","Menu Buscar",
                 KeyEvent.VK_F,"iconos\\Guardar.png");
     }
+     */
 
+    /**
+     * Método que contiene el Menu Herramientas, el cual contienen 3 Menu Items (Estadisticas,
+     * planificar y calenadrio).
+     */
     private void MenuHerramientas(){
 
         CompMenu menuHerramientas = new CompMenu("Herramientas");
@@ -108,6 +130,10 @@ public class BarraMenu extends JMenuBar {
         menuHerramientas.add(menuItemCalendario);
     }
 
+    /**
+     * Método que contiene el Menu Ajustes, el cual contiene 3 Menu Items (Cuenta, preferencias y
+     * idioma).
+     */
     private void MenuAjustes(){
 
         CompMenu menuAjustes = new CompMenu("Ajustes");
@@ -125,6 +151,10 @@ public class BarraMenu extends JMenuBar {
         menuAjustes.add(menuItemIdioma);
     }
 
+    /**
+     * Método que contiene el Menu Ayuda el cual contiene 3 Menu Items (Acerca de, indice de ayuda y
+     * versiones).
+     */
     private void MenuAyuda(){
 
         CompMenu menuAyuda = new CompMenu("Ayuda");
