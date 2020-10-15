@@ -1,7 +1,8 @@
 package com.musicmanagerssoftware.gui;
 
-import com.musicmanagerssoftware.componentes.BarraMenu;
-import com.musicmanagerssoftware.componentes.PanelArtista;
+import com.musicmanagerssoftware.componentes.menu.BarraMenu;
+import com.musicmanagerssoftware.componentes.paneles.PanelArtista;
+import com.musicmanagerssoftware.componentes.paneles.PanelGrupo;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -11,20 +12,30 @@ import java.awt.*;
 public class Vista extends JFrame{
 
     private JPanel contentPane;
-    private JList list1;
-    private JComboBox comboBox1;
-    private JTabbedPane tabbedPane1;
 
     public Vista() {
         setFont(new Font("Consolas", Font.BOLD, 12));
         setTitle("Music Managers Software");
         setBounds(100, 100, 1153, 826);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(contentPane);
         contentPane.setLayout(new BorderLayout());
 
+        menu();
+        componentes();
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+
+    public void menu() {
+        BarraMenu menuBar = new BarraMenu();
+        setJMenuBar(menuBar);
+    }
+
+    private void componentes(){
         JSplitPane splitPaneGeneral = new JSplitPane();//SplitPanel General
         splitPaneGeneral.setOneTouchExpandable(true);
         splitPaneGeneral.setResizeWeight(0.4);
@@ -50,13 +61,7 @@ public class Vista extends JFrame{
         PanelArtista panelArtista = new PanelArtista();
         tabbedPane.addTab("Art\u00EDsta", null, panelArtista, null);
 
-        menu();
-        setLocationRelativeTo(null);
-        setVisible(true);
-    }
-
-    public void menu() {
-        BarraMenu menuBar = new BarraMenu();
-        setJMenuBar(menuBar);
+        PanelGrupo panelGrupo = new PanelGrupo();
+        tabbedPane.addTab("Grupo", null, panelGrupo, null);
     }
 }
