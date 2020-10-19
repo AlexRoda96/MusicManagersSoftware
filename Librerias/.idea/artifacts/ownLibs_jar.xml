@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ownLibs:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ownLibs_jar</output-path>
+    <root id="archive" name="Librerias.jar">
+      <element id="module-output" name="Librerias" />
+    </root>
+  </artifact>
+</component>

@@ -6,5 +6,6 @@ public class CompTextFieldNoEditable extends JTextField {
 
     public CompTextFieldNoEditable(){
         setEditable(false);
+        setColumns(10);
     }
 }
