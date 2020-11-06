@@ -1,0 +1,68 @@
+
+R
+java:S1068"7Remove this unused "lbl_nacionalidad_AA" private field.(ï¯Ï–üÿÿÿÿ
+C
+java:S1604;"(Make this anonymous inner class a lambda(ıĞ‰ÿÿÿÿÿ
+>
+java:S1604&"(Make this anonymous inner class a lambda(‚ş–—
+O
+java:S1068"4Remove this unused "textField_dni_AA" private field.(Ë¤«Ãøÿÿÿÿ
+z	java:S116"eRename this field "textField_nnacionalidad_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿãâä
+U
+java:S11615":Add the "@Override" annotation above this method signature(†§şıÿÿÿÿ
+y	java:S116"dRename this field "textField_discografica_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ôÉ×
+r	java:S116"]Rename this field "lbl_discografia_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã»ÏØ
+T
+java:S1068">Remove this unused "textField_nnacionalidad_AA" private field.(Ÿãâä
+S
+java:S1068"8Remove this unused "lbl_generoMusical_AA" private field.(ÿ†îÚıÿÿÿÿ
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(ÆŒ×±
+C
+java:S1068"-Remove this unused "comboBox1" private field.(À–ìö
+U
+java:S1068":Remove this unused "lbl_fechaNacimiento_AA" private field.(¦´ÕÛıÿÿÿÿ
+H
+java:S1068"-Remove this unused "comboBox3" private field.(ÒÆºùÿÿÿÿ
+o	java:S116"URename this field "lbl_dni_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ôÎòüÿÿÿÿ
+r	java:S116"XRename this field "lbl_nombre_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¦¼İıÿÿÿÿ
+X
+java:S1068"=Remove this unused "lbl_Imagen_AnnadirArtista" private field.(Ò–Ö™ûÿÿÿÿ
+x	java:S116"^Rename this field "lbl_nacionalidad_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯Ï–üÿÿÿÿ
+L
+java:S1068"1Remove this unused "lbl_nombre_AA" private field.(¶¦¼İıÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(´¸µ 
+u	java:S116"[Rename this field "textField_dni_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¤«Ãøÿÿÿÿ
+I
+java:S1068"3Remove this unused "panel_imagen_AA" private field.(ô¡õ
+D
+java:S1068".Remove this unused "textField1" private field.(×ŒàÌ
+C
+java:S1068"-Remove this unused "comboBox2" private field.(´¸µ 
+o	java:S116"ZRename this field "panel_imagen_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¡õ
+p	java:S116"[Rename this field "lbl_apellidos_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©óÖ°
+y	java:S116"_Rename this field "lbl_generoMusical_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ†îÚıÿÿÿÿ
+I
+java:S1068".Remove this unused "lbl_dni_AA" private field.(˜ôÎòüÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(À–ìö
+y	java:S116
+"_Rename this field "textField_nombArt_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Á‰Ğùÿÿÿÿ
+L
+java:S1068"1Remove this unused "lbl_nomArt_AA" private field.(Š¿èşÿÿÿÿ
+J
+java:S1068"4Remove this unused "lbl_apellidos_AA" private field.(©óÖ°
+r	java:S116"XRename this field "lbl_nomArt_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¿èşÿÿÿÿ
+{	java:S116"aRename this field "lbl_fechaNacimiento_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦´ÕÛıÿÿÿÿ
+C
+java:S1604,"(Make this anonymous inner class a lambda(ò¨™Òıÿÿÿÿ
+~	java:S116"dRename this field "lbl_Imagen_AnnadirArtista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò–Ö™ûÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ÒÆºùÿÿÿÿ
+S
+java:S1068
+"8Remove this unused "textField_nombArt_AA" private field.(‡Á‰Ğùÿÿÿÿ
+S
+java:S1068"=Remove this unused "textField_discografica_AA" private field.(“ôÉ×
+L
+java:S1068"6Remove this unused "lbl_discografia_AA" private field.(ã»ÏØ

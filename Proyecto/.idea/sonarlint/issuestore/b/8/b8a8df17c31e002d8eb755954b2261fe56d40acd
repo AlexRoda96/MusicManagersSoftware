@@ -1,0 +1,116 @@
+
+w
+java:S1104G"UMake dlmDiscos a static final constant or non-public and provide accessors if needed.(¨ÆıÍÿÿÿÿÿ8¼ÆÉÙ.
+r	java:S116!"VRename this field "btn_ampliar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ôÍ¨8 úİôØ.
+y
+java:S1104$"\Make textField_nombre a static final constant or non-public and provide accessors if needed.(ŞøÎ8 Ò—­Ù.
+t	java:S116-"ZRename this field "textField_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä´Ö½øÿÿÿÿ
+€	java:S116&"dRename this field "textField_primeriApellido" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Å±³8»›¨ôØ.
+L
+java:S3740|"/Provide the parametrized type for this generic.(Ş‰Ş¿8û‡öóØ.
+w	java:S116+"bRename this field "textField_generoMusical" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô¸ò
+}
+java:S1104-"[Make textField_grupo a static final constant or non-public and provide accessors if needed.(Ä´Ö½øÿÿÿÿ8Ï–ºÙ.
+n	java:S116;"TRename this field "lbl_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Û”«ıÿÿÿÿ
+Q
+java:S3740G"/Provide the parametrized type for this generic.(¨ÆıÍÿÿÿÿÿ8¼ÆÉÙ.
+i	java:S116B"TRename this field "lbl_giras" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôä¿Ã
+t
+java:S1104!"WMake btn_ampliar a static final constant or non-public and provide accessors if needed.(¶ôÍ¨8ÚœáÉÙ.
+p	java:S116$"[Rename this field "textField_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞøÎ
+y
+java:S1104."\Make textField_numTfn a static final constant or non-public and provide accessors if needed.(ªñã8²‹—ºÙ.
+L
+java:S3740~"/Provide the parametrized type for this generic.(ñ†ñÈ8¥ç’ºÙ.
+p	java:S116"VRename this field "list_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¬£üÿÿÿÿ
+€
+java:S1104+"cMake textField_generoMusical a static final constant or non-public and provide accessors if needed.(Ô¸ò8ñ¸–ºÙ.
+x
+java:S1104"[Make list_conciertos a static final constant or non-public and provide accessors if needed.(›üš£8˜ÙÆÙ.
+Q
+java:S3740{"/Provide the parametrized type for this generic.(²Äª“ÿÿÿÿÿ8È¯õóØ.
+|
+java:S1104"ZMake list_canciones a static final constant or non-public and provide accessors if needed.(§œÜåÿÿÿÿÿ8æ˜ÆÙ.
+Q
+java:S3740F"/Provide the parametrized type for this generic.(ÚéÌÙÿÿÿÿÿ8ôĞÆÙ.
+R
+java:S3740Ğ"/Provide the parametrized type for this generic.(ş¼Öıÿÿÿÿ8²æ‘ÆÙ.
+‚
+java:S1104*"eMake textField_fechaNacimiento a static final constant or non-public and provide accessors if needed.(¼œà«8ñ¸–ºÙ.
+M
+java:S3740Ó"/Provide the parametrized type for this generic.(…›§§8Õ‘ÉÙ.
+v	java:S116"\Rename this field "scrollPane_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è£äºıÿÿÿÿ
+y	java:S116*"dRename this field "textField_fechaNacimiento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼œà«
+J
+java:S3740"/Provide the parametrized type for this generic.(ÿ¬£üÿÿÿÿ
+L
+java:S3740H"/Provide the parametrized type for this generic.(‰ëÖ”8ÛÊÂÉÙ.
+q	java:S116"WRename this field "panel_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šûÀ„ùÿÿÿÿ
+o	java:S116"ZRename this field "list_conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›üš£
+€	java:S116'"dRename this field "textField_segundoApellido" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‚õ¯8½ÊªôØ.
+„
+java:S1104/"bMake textField_discografica a static final constant or non-public and provide accessors if needed.(¢Ó‰Áşÿÿÿÿ8²‹—ºÙ.
+€	java:S116%"dRename this field "textField_nombreArtistico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÅÜ…8¥ç’ºÙ.
+{	java:S116)"aRename this field "textField_nacionalidad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù€æÔÿÿÿÿÿ
+|	java:S116?"[Rename this field "lbl_discografica" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Í©úÿÿÿÿ8¬²ÏôØ.
+r	java:S116@"XRename this field "lbl_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Ê¶Ùúÿÿÿÿ
+o	java:S116A"URename this field "lbl_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¢ó¿ıÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(›üš£
+s	java:S116"YRename this field "list_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§œÜåÿÿÿÿÿ
+s
+java:S11044"VMake lbl_imagen a static final constant or non-public and provide accessors if needed.(¤õ”€8ÏŠÀºÙ.
+~	java:S1166"]Rename this field "lbl_primerApellido" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿº¦˜ıÿÿÿÿ8¢ÁôØ.
+i	java:S1165"URename this field "lbl_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¼,
+y
+java:S1104"WMake list_discos a static final constant or non-public and provide accessors if needed.(ÿ¬£üÿÿÿÿ8æ˜ÆÙ.
+l	java:S1167"RRename this field "lbl_dni" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÑ²ùÿÿÿÿ
+y	java:S116<"^Rename this field "lbl_segundoApellido" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬…ë<8ñ’ÄôØ.
+	java:S1163"^Rename this field "lbl_nombreArtistico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óµØ×ÿÿÿÿÿ8¥ç’ºÙ.
+r	java:S1169"^Rename this field "lbl_fechaNacimiento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÚÉ$
+D
+java:S3740"/Provide the parametrized type for this generic.(ãó¯0
+{
+java:S1104F"YMake dlmConciertos a static final constant or non-public and provide accessors if needed.(ÚéÌÙÿÿÿÿÿ8ôĞÆÙ.
+z	java:S116,"_Rename this field "textField_tipoMusico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¹×<8©„°ôØ.
+w	java:S116."[Rename this field "textField_numTfn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªñã8îö¬ôØ.
+r	java:S116("XRename this field "textField_dni" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı®°ÿÿÿÿÿ
+„
+java:S1104)"bMake textField_nacionalidad a static final constant or non-public and provide accessors if needed.(Ù€æÔÿÿÿÿÿ8ñ¸–ºÙ.
+z	java:S116C"YRename this field "lbl_conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­±ºØÿÿÿÿÿ8¥ç’ºÙ.
+‚
+java:S1104&"eMake textField_primeriApellido a static final constant or non-public and provide accessors if needed.(¸Å±³8ñ¸–ºÙ.
+‚
+java:S1104%"eMake textField_nombreArtistico a static final constant or non-public and provide accessors if needed.( ÅÜ…8ñ¸–ºÙ.
+L
+java:S3740}"/Provide the parametrized type for this generic.(Åîÿ¿8³í÷óØ.
+z	java:S116"`Rename this field "scrollPane_conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼˜¾†ıÿÿÿÿ
+‚	java:S116/"aRename this field "textField_discografica" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ó‰Áşÿÿÿÿ8Œ¹²ôØ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(§œÜåÿÿÿÿÿ8æ˜ÆÙ.
+p	java:S116"[Rename this field "scrollPane_giras" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Õ‚÷
+u
+java:S1104I"XMake dlmCanciones a static final constant or non-public and provide accessors if needed.(–İâ8üÂÉÙ.
+L
+java:S3740I"/Provide the parametrized type for this generic.(–İâ8üÂÉÙ.
+{
+java:S1104("YMake textField_dni a static final constant or non-public and provide accessors if needed.(ı®°ÿÿÿÿÿ8ñ¸–ºÙ.
+|
+java:S1104,"`Make textField_tipoMusico a static final constant or non-public and provide accessors if needed.(ç¹×<8ñ¸–ºÙ.
+q
+java:S1104H"TMake dlmGiras a static final constant or non-public and provide accessors if needed.(‰ëÖ”8ÅŞÂÉÙ.
+p	java:S1168"[Rename this field "lbl_nacionalidad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ„–
+{	java:S116="ZRename this field "lbl_tipoMÃºsico" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­áÈØÿÿÿÿÿ8ñ¾ÌôØ.
+q	java:S116>"URename this field "lbl_numTfn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òËø8âÌÍôØ.
+r
+java:S1104"VMake list_giras a static final constant or non-public and provide accessors if needed.(ãó¯08˜ÙÆÙ.
+i	java:S116"URename this field "list_giras" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãó¯0
+j	java:S1164"URename this field "lbl_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤õ”€
+R
+java:S3740Ù"/Provide the parametrized type for this generic.(ºæ¶äûÿÿÿÿ8öºÃÉÙ.
+v	java:S116:"\Rename this field "lbl_generoMusical" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÌ—êúÿÿÿÿ
+y	java:S116"_Rename this field "scrollPane_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª†ê¬şÿÿÿÿ
+M
+java:S3740Ö"/Provide the parametrized type for this generic.(´»Ä¶8öºÃÉÙ.
+‚
+java:S1104'"eMake textField_segundoApellido a static final constant or non-public and provide accessors if needed.(ı‚õ¯8ñ¸–ºÙ.

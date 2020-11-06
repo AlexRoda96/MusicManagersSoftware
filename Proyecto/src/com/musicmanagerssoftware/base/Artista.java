@@ -2,29 +2,30 @@ package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Artista {
     private Integer id;
-    private String nombre;
-    private String apellidos;
-    private String dni;
     private String nombreArtistico;
+    private String nombre;
+    private String primerApellido;
+    private String segundoApellido;
+    private String dni;
     private Date fechaNacimiento;
-    private String nacionalidad;
-    private String discografica;
+    private String paisNacimiento;
+    private String numTelefono;
     private String generoMusical;
-    private String paginaWeb;
-    private String cuentaInstagram;
-    private String canalYoutube;
-    private String cuentaSpotify;
+    private String tipoMusico;
+    private byte[] foto;
+    private Grupo grupo;
     private List<Cancion> canciones;
     private List<Disco> discos;
-    private List<Gira> giras;
     private List<Concierto> conciertos;
-    private Grupo grupo;
+    private List<Gira> giras;
+    private List<Reunion> reuniones;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -34,36 +35,6 @@ public class Artista {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    @Basic
-    @Column(name = "nombre", nullable = false, length = 100)
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    @Basic
-    @Column(name = "apellidos", nullable = false, length = 100)
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
-    @Basic
-    @Column(name = "dni", nullable = false, length = 50)
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
     }
 
     @Basic
@@ -77,6 +48,46 @@ public class Artista {
     }
 
     @Basic
+    @Column(name = "nombre", nullable = false, length = 100)
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    @Basic
+    @Column(name = "primerApellido", nullable = false, length = 25)
+    public String getPrimerApellido() {
+        return primerApellido;
+    }
+
+    public void setPrimerApellido(String primerApellido) {
+        this.primerApellido = primerApellido;
+    }
+
+    @Basic
+    @Column(name = "segundoApellido", nullable = true, length = 25)
+    public String getSegundoApellido() {
+        return segundoApellido;
+    }
+
+    public void setSegundoApellido(String segundoApellido) {
+        this.segundoApellido = segundoApellido;
+    }
+
+    @Basic
+    @Column(name = "dni", nullable = false, length = 50)
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    @Basic
     @Column(name = "fechaNacimiento", nullable = true)
     public Date getFechaNacimiento() {
         return fechaNacimiento;
@@ -87,23 +98,23 @@ public class Artista {
     }
 
     @Basic
-    @Column(name = "nacionalidad", nullable = true, length = 50)
-    public String getNacionalidad() {
-        return nacionalidad;
+    @Column(name = "paisNacimiento", nullable = true, length = 50)
+    public String getPaisNacimiento() {
+        return paisNacimiento;
     }
 
-    public void setNacionalidad(String nacionalidad) {
-        this.nacionalidad = nacionalidad;
+    public void setPaisNacimiento(String paisNacimiento) {
+        this.paisNacimiento = paisNacimiento;
     }
 
     @Basic
-    @Column(name = "discografica", nullable = true, length = 100)
-    public String getDiscografica() {
-        return discografica;
+    @Column(name = "numTelefono", nullable = true, length = 15)
+    public String getNumTelefono() {
+        return numTelefono;
     }
 
-    public void setDiscografica(String discografica) {
-        this.discografica = discografica;
+    public void setNumTelefono(String numTelefono) {
+        this.numTelefono = numTelefono;
     }
 
     @Basic
@@ -117,43 +128,23 @@ public class Artista {
     }
 
     @Basic
-    @Column(name = "paginaWeb", nullable = true, length = 100)
-    public String getPaginaWeb() {
-        return paginaWeb;
+    @Column(name = "tipoMusico", nullable = true, length = 25)
+    public String getTipoMusico() {
+        return tipoMusico;
     }
 
-    public void setPaginaWeb(String paginaWeb) {
-        this.paginaWeb = paginaWeb;
-    }
-
-    @Basic
-    @Column(name = "cuentaInstagram", nullable = true, length = 100)
-    public String getCuentaInstagram() {
-        return cuentaInstagram;
-    }
-
-    public void setCuentaInstagram(String cuentaInstagram) {
-        this.cuentaInstagram = cuentaInstagram;
+    public void setTipoMusico(String tipoMusico) {
+        this.tipoMusico = tipoMusico;
     }
 
     @Basic
-    @Column(name = "canalYoutube", nullable = true, length = 100)
-    public String getCanalYoutube() {
-        return canalYoutube;
+    @Column(name = "foto", nullable = true)
+    public byte[] getFoto() {
+        return foto;
     }
 
-    public void setCanalYoutube(String canalYoutube) {
-        this.canalYoutube = canalYoutube;
-    }
-
-    @Basic
-    @Column(name = "cuentaSpotify", nullable = true, length = 100)
-    public String getCuentaSpotify() {
-        return cuentaSpotify;
-    }
-
-    public void setCuentaSpotify(String cuentaSpotify) {
-        this.cuentaSpotify = cuentaSpotify;
+    public void setFoto(byte[] foto) {
+        this.foto = foto;
     }
 
     @Override
@@ -162,23 +153,32 @@ public class Artista {
         if (o == null || getClass() != o.getClass()) return false;
         Artista artista = (Artista) o;
         return Objects.equals(id, artista.id) &&
-                Objects.equals(nombre, artista.nombre) &&
-                Objects.equals(apellidos, artista.apellidos) &&
-                Objects.equals(dni, artista.dni) &&
                 Objects.equals(nombreArtistico, artista.nombreArtistico) &&
+                Objects.equals(nombre, artista.nombre) &&
+                Objects.equals(primerApellido, artista.primerApellido) &&
+                Objects.equals(segundoApellido, artista.segundoApellido) &&
+                Objects.equals(dni, artista.dni) &&
                 Objects.equals(fechaNacimiento, artista.fechaNacimiento) &&
-                Objects.equals(nacionalidad, artista.nacionalidad) &&
-                Objects.equals(discografica, artista.discografica) &&
+                Objects.equals(paisNacimiento, artista.paisNacimiento) &&
+                Objects.equals(numTelefono, artista.numTelefono) &&
                 Objects.equals(generoMusical, artista.generoMusical) &&
-                Objects.equals(paginaWeb, artista.paginaWeb) &&
-                Objects.equals(cuentaInstagram, artista.cuentaInstagram) &&
-                Objects.equals(canalYoutube, artista.canalYoutube) &&
-                Objects.equals(cuentaSpotify, artista.cuentaSpotify);
+                Objects.equals(tipoMusico, artista.tipoMusico) &&
+                Arrays.equals(foto, artista.foto);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, apellidos, dni, nombreArtistico, fechaNacimiento, nacionalidad, discografica, generoMusical, paginaWeb, cuentaInstagram, canalYoutube, cuentaSpotify);
+         return  Objects.hash(id, nombreArtistico, nombre, primerApellido, segundoApellido, dni, fechaNacimiento, paisNacimiento, numTelefono, generoMusical, tipoMusico);
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    public Grupo getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
     }
 
     @OneToMany(mappedBy = "artista")
@@ -200,6 +200,15 @@ public class Artista {
     }
 
     @OneToMany(mappedBy = "artista")
+    public List<Concierto> getConciertos() {
+        return conciertos;
+    }
+
+    public void setConciertos(List<Concierto> conciertos) {
+        this.conciertos = conciertos;
+    }
+
+    @OneToMany(mappedBy = "artista")
     public List<Gira> getGiras() {
         return giras;
     }
@@ -209,20 +218,16 @@ public class Artista {
     }
 
     @OneToMany(mappedBy = "artista")
-    public List<Concierto> getConciertos() {
-        return conciertos;
+    public List<Reunion> getReuniones() {
+        return reuniones;
     }
 
-    public void setConciertos(List<Concierto> conciertos) {
-        this.conciertos = conciertos;
+    public void setReuniones(List<Reunion> reuniones) {
+        this.reuniones = reuniones;
     }
 
-    @ManyToOne
-    public Grupo getGrupo() {
-        return grupo;
-    }
-
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
+    @Override
+    public String toString() {
+        return nombreArtistico;
     }
 }

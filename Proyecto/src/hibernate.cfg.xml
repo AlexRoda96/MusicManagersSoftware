@@ -1,29 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-configuration PUBLIC
-        "-//Hibernate/Hibernate Configuration DTD//EN"
-        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-    <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/musicDb</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <mapping class="com.musicmanagerssoftware.base.Artista"/>
-        <mapping resource="Artista.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Cancion"/>
-        <mapping resource="Cancion.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Concierto"/>
-        <mapping resource="Concierto.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Disco"/>
-        <mapping resource="Disco.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Gira"/>
-        <mapping resource="Gira.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Grupo"/>
-        <mapping resource="Grupo.hbm.xml"/>
-        <mapping class="com.musicmanagerssoftware.base.Sala"/>
-        <mapping resource="Sala.hbm.xml"/>
-        <!-- <property name="connection.username"/> -->
-        <!-- <property name="connection.password"/> -->
-
-        <!-- DB schema will be updated if needed -->
-        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
-    </session-factory>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/musicDb</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password"></property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.enable_lazy_load_no_trans">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="c3p0.acquire_increment">1</property>
+    <property name="c3p0.idle_test_period">100</property>
+    <property name="c3p0.max_size">5</property>
+    <property name="c3p0.max_statements">10</property>
+    <property name="c3p0.min_size">3</property>
+    <property name="c3p0.timeout">200</property>
+    <mapping class="com.musicmanagerssoftware.base.Artista"/>
+    <mapping class="com.musicmanagerssoftware.base.Cancion"/>
+    <mapping class="com.musicmanagerssoftware.base.Concierto"/>
+    <mapping class="com.musicmanagerssoftware.base.Disco"/>
+    <mapping class="com.musicmanagerssoftware.base.Gira"/>
+    <mapping class="com.musicmanagerssoftware.base.Grupo"/>
+    <mapping class="com.musicmanagerssoftware.base.Reunion"/>
+    <mapping class="com.musicmanagerssoftware.base.Sala"/>
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
 </hibernate-configuration>

@@ -9,6 +9,7 @@ import java.util.Objects;
 @Entity
 public class Concierto {
     private Integer id;
+    private String nombre;
     private String pais;
     private String ciudad;
     private Date fecha;
@@ -19,10 +20,10 @@ public class Concierto {
     private Time horaApertura;
     private Integer edadMinima;
     private Artista artista;
-    private Grupo grupo;
-    private Sala sala;
-    private Gira gira;
     private List<Cancion> canciones;
+    private Grupo grupo;
+    private Gira gira;
+    private Sala sala;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -32,6 +33,16 @@ public class Concierto {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    @Basic
+    @Column(name = "nombre", nullable = true, length = 100)
+    public String getNombre() {
+        return nombre;
+    }
+
+        public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     @Basic
@@ -146,7 +157,7 @@ public class Concierto {
         return Objects.hash(id, pais, ciudad, fecha, fechaSalidaEntradas, numeroEntradas, merchan, precioEntrada, horaApertura, edadMinima);
     }
 
-    @ManyToOne
+    @ManyToOne()
     public Artista getArtista() {
         return artista;
     }
@@ -155,7 +166,17 @@ public class Concierto {
         this.artista = artista;
     }
 
+    @ManyToMany(mappedBy = "concierto")
+    public List<Cancion> getCanciones() {
+        return canciones;
+    }
+
+    public void setCanciones(List<Cancion> canciones) {
+        this.canciones = canciones;
+    }
+
     @ManyToOne
+    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
@@ -165,15 +186,7 @@ public class Concierto {
     }
 
     @ManyToOne
-    public Sala getSala() {
-        return sala;
-    }
-
-    public void setSala(Sala sala) {
-        this.sala = sala;
-    }
-
-    @ManyToOne
+    @JoinColumn(name = "id_gira", referencedColumnName = "id")
     public Gira getGira() {
         return gira;
     }
@@ -182,13 +195,18 @@ public class Concierto {
         this.gira = gira;
     }
 
-    @ManyToMany
-    @JoinTable(name = "concierto_cancion", catalog = "", schema = "musicdb", joinColumns = @JoinColumn(name = "id_concierto", referencedColumnName = "id", nullable = false), inverseJoinColumns = @JoinColumn(name = "id_cancion", referencedColumnName = "id", nullable = false))
-    public List<Cancion> getCanciones() {
-        return canciones;
+    @ManyToOne
+    @JoinColumn(name = "id_sala", referencedColumnName = "id")
+    public Sala getSala() {
+        return sala;
     }
 
-    public void setCanciones(List<Cancion> canciones) {
-        this.canciones = canciones;
+    public void setSala(Sala sala) {
+        this.sala = sala;
+    }
+
+    @Override
+    public String toString() {
+        return "- " +ciudad + " " + fecha;
     }
 }

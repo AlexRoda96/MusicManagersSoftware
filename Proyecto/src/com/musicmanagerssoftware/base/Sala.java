@@ -15,6 +15,7 @@ public class Sala {
     private String tipoSala;
     private String paginaWeb;
     private Integer numeroTelef;
+    private Double precioAlquiler;
     private List<Concierto> conciertos;
 
     @Id
@@ -107,6 +108,16 @@ public class Sala {
         this.numeroTelef = numeroTelef;
     }
 
+    @Basic
+    @Column(name = "precioAlquiler", nullable = true, precision = 0)
+    public Double getPrecioAlquiler() {
+        return precioAlquiler;
+    }
+
+    public void setPrecioAlquiler(Double precioAlquiler) {
+        this.precioAlquiler = precioAlquiler;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -120,12 +131,13 @@ public class Sala {
                 Objects.equals(aforoMax, sala.aforoMax) &&
                 Objects.equals(tipoSala, sala.tipoSala) &&
                 Objects.equals(paginaWeb, sala.paginaWeb) &&
-                Objects.equals(numeroTelef, sala.numeroTelef);
+                Objects.equals(numeroTelef, sala.numeroTelef) &&
+                Objects.equals(precioAlquiler, sala.precioAlquiler);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, pais, ciudad, direccion, aforoMax, tipoSala, paginaWeb, numeroTelef);
+        return Objects.hash(id, nombre, pais, ciudad, direccion, aforoMax, tipoSala, paginaWeb, numeroTelef, precioAlquiler);
     }
 
     @OneToMany(mappedBy = "sala")

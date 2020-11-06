@@ -1,0 +1,55 @@
+
+v	java:S116"aRename this field "textField_apellidos_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¾¦É
+I
+java:S1068".Remove this unused "lbl_dni_AA" private field.(˜ôÎòüÿÿÿÿ
+r	java:S116"XRename this field "lbl_nombre_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¦¼İıÿÿÿÿ
+L
+java:S1068"1Remove this unused "lbl_nomArt_AA" private field.(Š¿èşÿÿÿÿ
+S
+java:S1068
+"8Remove this unused "textField_nombArt_AA" private field.(‡Á‰Ğùÿÿÿÿ
+u	java:S116"[Rename this field "textField_dni_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¤«Ãøÿÿÿÿ
+P
+java:S1068":Remove this unused "textField_apellidos_AA" private field.(ö¾¦É
+L
+java:S1068"1Remove this unused "lbl_nombre_AA" private field.(¶¦¼İıÿÿÿÿ
+U
+java:S11611":Add the "@Override" annotation above this method signature(†§şıÿÿÿÿ
+z	java:S116"eRename this field "textField_nnacionalidad_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿãâä
+x	java:S116"^Rename this field "textField_nombre_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Õ§ïùÿÿÿÿ
+|	java:S116"bRename this field "aÃ±adirConciertosButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªá×Âşÿÿÿÿ
+o	java:S116"ZRename this field "panel_imagen_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¡õ
+C
+java:S16047"(Make this anonymous inner class a lambda(ıĞ‰ÿÿÿÿÿ
+T
+java:S1068">Remove this unused "textField_nnacionalidad_AA" private field.(Ÿãâä
+R
+java:S1068"7Remove this unused "lbl_nacionalidad_AA" private field.(ï¯Ï–üÿÿÿÿ
+I
+java:S1068"3Remove this unused "panel_imagen_AA" private field.(ô¡õ
+P	java:S110"<This class has 6 parents which is greater than 5 authorized.(”Ş£)
+>
+java:S1604""(Make this anonymous inner class a lambda(‚ş–—
+V
+java:S1068";Remove this unused "aÃ±adirConciertosButton" private field.(ªá×Âşÿÿÿÿ
+~	java:S116"dRename this field "lbl_Imagen_AnnadirArtista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò–Ö™ûÿÿÿÿ
+o	java:S116"URename this field "lbl_dni_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ôÎòüÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(¡ŒÚ“
+O
+java:S1068"4Remove this unused "textField_dni_AA" private field.(Ë¤«Ãøÿÿÿÿ
+y	java:S116
+"_Rename this field "textField_nombArt_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Á‰Ğùÿÿÿÿ
+R
+java:S1068"7Remove this unused "textField_nombre_AA" private field.(­Õ§ïùÿÿÿÿ
+?
+java:S1068")Remove this unused "list2" private field.(¡ŒÚ“
+C
+java:S1604("(Make this anonymous inner class a lambda(ò¨™Òıÿÿÿÿ
+X
+java:S1068"=Remove this unused "lbl_Imagen_AnnadirArtista" private field.(Ò–Ö™ûÿÿÿÿ
+r	java:S116"XRename this field "lbl_nomArt_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š¿èşÿÿÿÿ
+J
+java:S1068"4Remove this unused "lbl_apellidos_AA" private field.(©óÖ°
+p	java:S116"[Rename this field "lbl_apellidos_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©óÖ°
+x	java:S116"^Rename this field "lbl_nacionalidad_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¯Ï–üÿÿÿÿ

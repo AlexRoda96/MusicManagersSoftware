@@ -1,0 +1,8 @@
+
+^
+java:S1854+"HRemove this useless assignment to local variable "viewSelectTypeModify".(°žÑÏ
+`
+java:S1854%"ERemove this useless assignment to local variable "viewSelectTypeAdd".(”ñ›—ùÿÿÿÿ
+c
+java:S1854("HRemove this useless assignment to local variable "viewSelectTypeDelete".(›ÁÛÑþÿÿÿÿ
+7	java:S131"""Add a default case to this switch.(Ó–¶õ

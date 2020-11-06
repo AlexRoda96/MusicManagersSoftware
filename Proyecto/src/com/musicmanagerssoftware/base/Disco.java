@@ -2,6 +2,7 @@ package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -12,14 +13,11 @@ public class Disco {
     private Date fechaPublicacion;
     private String generoMusical;
     private String formato;
-    private String discografica;
-    private String colaboraciones;
     private Double precio;
-    private String canalYoutube;
-    private String cuentaSpotify;
+    private byte[] caractula;
     private Artista artista;
-    private Grupo grupo;
     private List<Cancion> canciones;
+    private Grupo grupo;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -72,26 +70,6 @@ public class Disco {
     }
 
     @Basic
-    @Column(name = "discografica", nullable = false, length = 50)
-    public String getDiscografica() {
-        return discografica;
-    }
-
-    public void setDiscografica(String discografica) {
-        this.discografica = discografica;
-    }
-
-    @Basic
-    @Column(name = "colaboraciones", nullable = true, length = 100)
-    public String getColaboraciones() {
-        return colaboraciones;
-    }
-
-    public void setColaboraciones(String colaboraciones) {
-        this.colaboraciones = colaboraciones;
-    }
-
-    @Basic
     @Column(name = "precio", nullable = true, precision = 0)
     public Double getPrecio() {
         return precio;
@@ -102,23 +80,13 @@ public class Disco {
     }
 
     @Basic
-    @Column(name = "canalYoutube", nullable = true, length = 100)
-    public String getCanalYoutube() {
-        return canalYoutube;
+    @Column(name = "caractula", nullable = true)
+    public byte[] getCaractula() {
+        return caractula;
     }
 
-    public void setCanalYoutube(String canalYoutube) {
-        this.canalYoutube = canalYoutube;
-    }
-
-    @Basic
-    @Column(name = "cuentaSpotify", nullable = true, length = 100)
-    public String getCuentaSpotify() {
-        return cuentaSpotify;
-    }
-
-    public void setCuentaSpotify(String cuentaSpotify) {
-        this.cuentaSpotify = cuentaSpotify;
+    public void setCaractula(byte[] caractula) {
+        this.caractula = caractula;
     }
 
     @Override
@@ -131,16 +99,13 @@ public class Disco {
                 Objects.equals(fechaPublicacion, disco.fechaPublicacion) &&
                 Objects.equals(generoMusical, disco.generoMusical) &&
                 Objects.equals(formato, disco.formato) &&
-                Objects.equals(discografica, disco.discografica) &&
-                Objects.equals(colaboraciones, disco.colaboraciones) &&
                 Objects.equals(precio, disco.precio) &&
-                Objects.equals(canalYoutube, disco.canalYoutube) &&
-                Objects.equals(cuentaSpotify, disco.cuentaSpotify);
+                Arrays.equals(caractula, disco.caractula);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, titulo, fechaPublicacion, generoMusical, formato, discografica, colaboraciones, precio, canalYoutube, cuentaSpotify);
+         return  Objects.hash(id, titulo, fechaPublicacion, generoMusical, formato, precio);
     }
 
     @ManyToOne
@@ -152,7 +117,17 @@ public class Disco {
         this.artista = artista;
     }
 
+    @OneToMany(mappedBy = "disco")
+    public List<Cancion> getCanciones() {
+        return canciones;
+    }
+
+    public void setCanciones(List<Cancion> canciones) {
+        this.canciones = canciones;
+    }
+
     @ManyToOne
+    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
@@ -161,12 +136,8 @@ public class Disco {
         this.grupo = grupo;
     }
 
-    @OneToMany(mappedBy = "disco")
-    public List<Cancion> getCanciones() {
-        return canciones;
-    }
-
-    public void setCanciones(List<Cancion> canciones) {
-        this.canciones = canciones;
+    @Override
+    public String toString() {
+        return "- " + titulo;
     }
 }

@@ -1,0 +1,46 @@
+
+q	java:S116"URename this field "Conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç•‹Ñ8ë­àùØ.
+u	java:S116/"YRename this field "textField_Sala" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÖÂô8èè‚úØ.
+p	java:S116$"TRename this field "lbl_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê­œİ8à‡ñùØ.
+{	java:S1161"_Rename this field "textField_edadMinima" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Òúè8÷úØ.
+}	java:S1164"\Rename this field "textField_artista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼î„·ûÿÿÿÿ8ú‡„úØ.
+q	java:S116"URename this field "lbl_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÂ†É8óÛñùØ.
+ƒ	java:S1160"bRename this field "textField_precioEntrada" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸­‡¦ıÿÿÿÿ8„€şùØ.
+w	java:S116&"VRename this field "lbl_merchan" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ“Â¹úÿÿÿÿ8åŞëùØ.
+|	java:S116+"[Rename this field "textField_ciudad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ì‘Öşÿÿÿÿ8š—úùØ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ìßÉûÿÿÿÿ8¥»ĞùØ.
+}	java:S1163"aRename this field "textField_horaApertura" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÈÃ†8ÀøşùØ.
+x	java:S1169"WRename this field "panel_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šûÀ„ùÿÿÿÿ8ÕãôùØ.
+‰	java:S116,"hRename this field "textField_fechaSalidaEntradas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷—à“ûÿÿÿÿ8ÚƒüùØ.
+€	java:S116"_Rename this field "scrollPane_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª†ê¬şÿÿÿÿ8–ÒùØ.
+L
+java:S3740"/Provide the parametrized type for this generic.(ÕòÕ•8¥»ĞùØ.
+L
+java:S3740P"/Provide the parametrized type for this generic.(Ş‰Ş¿8‹¹ºùØ.
+ƒ	java:S116"bRename this field "lbl_fechaSalidaEntradas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‚Ñôÿÿÿÿÿ8çùØ.
+u	java:S1162"YRename this field "textField_gira" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÅÃ8‡ÄƒúØ.
+L
+java:S3740O"/Provide the parametrized type for this generic.(ñ†ñÈ8ñ¨ùØ.
+t	java:S116#"XRename this field "lbl_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÁßı8‰ÓòùØ.
+z	java:S116*"YRename this field "textField_pais" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º÷……üÿÿÿÿ8üœøùØ.
+|	java:S116-"`Rename this field "textField_numEntradas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÆ›ª8„åüùØ.
+{	java:S1165"ZRename this field "textField_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹úÑòÿÿÿÿÿ8â×„úØ.
+n	java:S116"SRename this field "lbl_sala" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ,8€ÄìùØ.
+t	java:S116 "SRename this field "lbl_gira" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âè°Óüÿÿÿÿ8¿’ïùØ.
+	java:S116."cRename this field "textField_fechaConcierto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¨¾Ú8âŠûùØ.
+~	java:S116"]Rename this field "lbl_precioEntradas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­úØùÿÿÿÿ8­µéùØ.
+z	java:S116<"YRename this field "button_ampliar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÛ»Ãûÿÿÿÿ8½±ôùØ.
+r	java:S116""VRename this field "lbl_artista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Æî©8ó­ğùØ.
+{	java:S116"ZRename this field "list_conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìßÉûÿÿÿÿ8ì€ÓùØ.
+q	java:S116"URename this field "lbl_ciudad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àô¹Î8¥ÈãùØ.
+	java:S116"`Rename this field "scrollPane_conciertos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼˜¾†ıÿÿÿÿ8ÌÁÒùØ.
+|	java:S116!"[Rename this field "lbl_horaApertura" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ¦ªÿÿÿÿÿ8…¯êùØ.
+}	java:S1166"\Rename this field "textField_merchan" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯§ú©şÿÿÿÿ8Éƒ‚úØ.
+u	java:S116"YRename this field "list_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕòÕ•8›±ÓùØ.
+n	java:S116"SRename this field "lbl_pais" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õå›28•îãùØ.
+z	java:S116%"YRename this field "lbl_edadMinima" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»öŠ€øÿÿÿÿ8ÙƒëùØ.
+v	java:S116"ZRename this field "lbl_numEntradas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‹İé8ÉƒèùØ.
+y	java:S116"]Rename this field "lbl_fechaConcierto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ï§¼8¬£æùØ.
+q	java:S116"URename this field "lbl_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÆÌÀ8Œ¾åùØ.
+|	java:S116)"[Rename this field "textField_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŠàÛıÿÿÿÿ8­Ğ÷ùØ.

@@ -1,0 +1,60 @@
+
+O
+java:S1068$"-Remove this unused "lblImagen" private field.(¼Öéêøÿÿÿÿ8£”Öû×.
+P
+java:S1068"3Remove this unused "textFieldNumTfn" private field.(©ºş…8ƒ‹±û×.
+O
+java:S1068 "2Remove this unused "listConciertos" private field.(öóÈŸ8ª·û×.
+M
+java:S1068"0Remove this unused "textFieldDni" private field.(Ø»×–8†Ğ¯û×.
+L
+java:S3740"/Provide the parametrized type for this generic.(´¸µ 8£”Öû×.
+X
+java:S1068";Remove this unused "textFieldPrimerApellido" private field.(éÏÃÈ8Ì¦®û×.
+E
+java:S3740 "/Provide the parametrized type for this generic.(öóÈŸ
+N
+java:S1068"1Remove this unused "comboBoxGrupo" private field.( ã¤ª8åË±û×.
+I
+java:S1068""-Remove this unused "listGiras" private field.(ğ»†08£”Öû×.
+J
+java:S1068"-Remove this unused "comboBox1" private field.(À–ìö8£”Öû×.
+E
+java:S3740"/Provide the parametrized type for this generic.( ã¤ª
+K
+java:S3740""/Provide the parametrized type for this generic.(ğ»†08£”Öû×.
+S
+java:S1068"6Remove this unused "textFieldNombreArt" private field.(Òõö½8ó¬û×.
+L
+java:S3740"/Provide the parametrized type for this generic.(À–ìö8£”Öû×.
+J
+java:S1604>"(Make this anonymous inner class a lambda(˜Ã²ïùÿÿÿÿ8£”Öû×.
+N
+java:S1068"1Remove this unused "listCanciones" private field.(×¥Ì˜8õ÷¶û×.
+P
+java:S1068!".Remove this unused "listDiscos" private field.(õÚù‚ÿÿÿÿÿ8ÒÅ·û×.
+E
+java:S16048"(Make this anonymous inner class a lambda(«‚øŞ8£”Öû×.
+J
+java:S1604N"(Make this anonymous inner class a lambda(ıĞ‰ÿÿÿÿÿ8£”Öû×.
+^
+java:S1068"<Remove this unused "textFieldSegundoApellido" private field.(õ‚°Âûÿÿÿÿ8‹£Õû×.
+J
+java:S1068"-Remove this unused "comboBox2" private field.(´¸µ 8£”Öû×.
+J
+java:S3740!"/Provide the parametrized type for this generic.(õÚù‚ÿÿÿÿÿ
+Q
+java:S1068"/Remove this unused "panelImagen" private field.(òçû±ıÿÿÿÿ8ÂŒÒû×.
+E
+java:S3740"/Provide the parametrized type for this generic.(ŒäÙß
+Z
+java:S1068&"=Remove this unused "datePickerFechaNacimiento" private field.(ñÿ¨ì8£”Öû×.
+E
+java:S3740"/Provide the parametrized type for this generic.(×¥Ì˜
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(È£›¥ÿÿÿÿÿ
+V
+java:S1068"9Remove this unused "textFieldNacionalidad" private field.( ¿üØ8ª’°û×.
+O
+java:S1068"3Remove this unused "textFieldNombre" private field.(Óµ­~8Ê‘­û×.
+V
+java:S1068"9Remove this unused "comboBoxGeneroMusical" private field.(ŒäÙß8€²û×.

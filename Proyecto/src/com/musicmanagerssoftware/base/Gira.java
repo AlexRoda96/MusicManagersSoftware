@@ -11,9 +11,12 @@ public class Gira {
     private String nombre;
     private Date fechaInicio;
     private Date fechaFin;
+    private Double presupuesto;
+    private Double coste;
+    private Double ganancia;
     private Artista artista;
-    private Grupo grupo;
     private List<Concierto> conciertos;
+    private Grupo grupo;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -55,6 +58,36 @@ public class Gira {
         this.fechaFin = fechaFin;
     }
 
+    @Basic
+    @Column(name = "presupuesto", nullable = true, precision = 0)
+    public Double getPresupuesto() {
+        return presupuesto;
+    }
+
+    public void setPresupuesto(Double presupuesto) {
+        this.presupuesto = presupuesto;
+    }
+
+    @Basic
+    @Column(name = "coste", nullable = true, precision = 0)
+    public Double getCoste() {
+        return coste;
+    }
+
+    public void setCoste(Double coste) {
+        this.coste = coste;
+    }
+
+    @Basic
+    @Column(name = "ganancia", nullable = true, precision = 0)
+    public Double getGanancia() {
+        return ganancia;
+    }
+
+    public void setGanancia(Double ganancia) {
+        this.ganancia = ganancia;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -63,12 +96,15 @@ public class Gira {
         return Objects.equals(id, gira.id) &&
                 Objects.equals(nombre, gira.nombre) &&
                 Objects.equals(fechaInicio, gira.fechaInicio) &&
-                Objects.equals(fechaFin, gira.fechaFin);
+                Objects.equals(fechaFin, gira.fechaFin) &&
+                Objects.equals(presupuesto, gira.presupuesto) &&
+                Objects.equals(coste, gira.coste) &&
+                Objects.equals(ganancia, gira.ganancia);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, fechaInicio, fechaFin);
+        return Objects.hash(id, nombre, fechaInicio, fechaFin, presupuesto, coste, ganancia);
     }
 
     @ManyToOne
@@ -80,7 +116,17 @@ public class Gira {
         this.artista = artista;
     }
 
+    @OneToMany(mappedBy = "gira")
+    public List<Concierto> getConciertos() {
+        return conciertos;
+    }
+
+    public void setConciertos(List<Concierto> conciertos) {
+        this.conciertos = conciertos;
+    }
+
     @ManyToOne
+    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
@@ -89,12 +135,8 @@ public class Gira {
         this.grupo = grupo;
     }
 
-    @OneToMany(mappedBy = "gira")
-    public List<Concierto> getConciertos() {
-        return conciertos;
-    }
-
-    public void setConciertos(List<Concierto> conciertos) {
-        this.conciertos = conciertos;
+    @Override
+    public String toString() {
+        return "- " + nombre + "   " + fechaInicio;
     }
 }

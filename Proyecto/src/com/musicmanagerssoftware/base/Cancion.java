@@ -12,17 +12,12 @@ public class Cancion {
     private Date fechaPublicacion;
     private String formato;
     private String genero;
-    private String discografica;
-    private String productor;
     private Integer duracion;
-    private String colaboraciones;
     private Byte videoclip;
-    private String enlaceYoutube;
-    private String cuentaSpotify;
     private Artista artista;
-    private Grupo grupo;
     private Disco disco;
-    private List<Concierto> conciertos;
+    private Grupo grupo;
+    private List<Concierto> concierto;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -75,26 +70,6 @@ public class Cancion {
     }
 
     @Basic
-    @Column(name = "discografica", nullable = false, length = 100)
-    public String getDiscografica() {
-        return discografica;
-    }
-
-    public void setDiscografica(String discografica) {
-        this.discografica = discografica;
-    }
-
-    @Basic
-    @Column(name = "productor", nullable = false, length = 100)
-    public String getProductor() {
-        return productor;
-    }
-
-    public void setProductor(String productor) {
-        this.productor = productor;
-    }
-
-    @Basic
     @Column(name = "duracion", nullable = true)
     public Integer getDuracion() {
         return duracion;
@@ -102,16 +77,6 @@ public class Cancion {
 
     public void setDuracion(Integer duracion) {
         this.duracion = duracion;
-    }
-
-    @Basic
-    @Column(name = "colaboraciones", nullable = true, length = 100)
-    public String getColaboraciones() {
-        return colaboraciones;
-    }
-
-    public void setColaboraciones(String colaboraciones) {
-        this.colaboraciones = colaboraciones;
     }
 
     @Basic
@@ -124,26 +89,6 @@ public class Cancion {
         this.videoclip = videoclip;
     }
 
-    @Basic
-    @Column(name = "enlaceYoutube", nullable = true, length = 100)
-    public String getEnlaceYoutube() {
-        return enlaceYoutube;
-    }
-
-    public void setEnlaceYoutube(String enlaceYoutube) {
-        this.enlaceYoutube = enlaceYoutube;
-    }
-
-    @Basic
-    @Column(name = "cuentaSpotify", nullable = true, length = 100)
-    public String getCuentaSpotify() {
-        return cuentaSpotify;
-    }
-
-    public void setCuentaSpotify(String cuentaSpotify) {
-        this.cuentaSpotify = cuentaSpotify;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -154,18 +99,13 @@ public class Cancion {
                 Objects.equals(fechaPublicacion, cancion.fechaPublicacion) &&
                 Objects.equals(formato, cancion.formato) &&
                 Objects.equals(genero, cancion.genero) &&
-                Objects.equals(discografica, cancion.discografica) &&
-                Objects.equals(productor, cancion.productor) &&
                 Objects.equals(duracion, cancion.duracion) &&
-                Objects.equals(colaboraciones, cancion.colaboraciones) &&
-                Objects.equals(videoclip, cancion.videoclip) &&
-                Objects.equals(enlaceYoutube, cancion.enlaceYoutube) &&
-                Objects.equals(cuentaSpotify, cancion.cuentaSpotify);
+                Objects.equals(videoclip, cancion.videoclip);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, titulo, fechaPublicacion, formato, genero, discografica, productor, duracion, colaboraciones, videoclip, enlaceYoutube, cuentaSpotify);
+        return Objects.hash(id, titulo, fechaPublicacion, formato, genero, duracion, videoclip);
     }
 
     @ManyToOne
@@ -178,15 +118,7 @@ public class Cancion {
     }
 
     @ManyToOne
-    public Grupo getGrupo() {
-        return grupo;
-    }
-
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
-    }
-
-    @ManyToOne
+    @JoinColumn(name = "id_disco", referencedColumnName = "id")
     public Disco getDisco() {
         return disco;
     }
@@ -195,12 +127,28 @@ public class Cancion {
         this.disco = disco;
     }
 
-    @ManyToMany(mappedBy = "canciones")
-    public List<Concierto> getConciertos() {
-        return conciertos;
+    @ManyToOne
+    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    public Grupo getGrupo() {
+        return grupo;
     }
 
-    public void setConciertos(List<Concierto> conciertos) {
-        this.conciertos = conciertos;
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
+    }
+
+    @ManyToMany
+    @JoinTable(name = "concierto_cancion", catalog = "", schema = "musicdb", joinColumns = @JoinColumn(name = "id_concierto", referencedColumnName = "id", nullable = false), inverseJoinColumns = @JoinColumn(name = "id_cancion", referencedColumnName = "id", nullable = false))
+    public List<Concierto> getConcierto() {
+        return concierto;
+    }
+
+    public void setConcierto(List<Concierto> concierto) {
+        this.concierto = concierto;
+    }
+
+    @Override
+    public String toString() {
+        return "- " + titulo;
     }
 }

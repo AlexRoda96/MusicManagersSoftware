@@ -1,6 +1,7 @@
 package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -8,18 +9,16 @@ import java.util.Objects;
 public class Grupo {
     private Integer id;
     private String nombre;
-    private Object annoFormacion;
+    private String annoFormacion;
     private String discografica;
     private String generoMusical;
-    private String paginaWeb;
-    private String cuentaInstagram;
-    private String canalYoutube;
-    private String cuentaSpotify;
+    private byte[] foto;
     private List<Artista> artistas;
     private List<Cancion> canciones;
+    private List<Concierto> conciertos;
     private List<Disco> discos;
     private List<Gira> giras;
-    private List<Concierto> conciertos;
+    private List<Reunion> reuniones;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -42,17 +41,18 @@ public class Grupo {
     }
 
     @Basic
-    @Column(name = "annoFormacion", nullable = true)
-    public Object getAnnoFormacion() {
+    @Column(name = "annoFormacion", nullable = true, length = 29)
+    public String getAnnoFormacion() {
         return annoFormacion;
     }
 
-    public void setAnnoFormacion(Object annoFormacion) {
+    public void setAnnoFormacion(String annoFormacion) {
         this.annoFormacion = annoFormacion;
     }
 
+
     @Basic
-    @Column(name = "discografica", nullable = true, length = 100)
+    @Column(name = "discografica", nullable = true, length = 50)
     public String getDiscografica() {
         return discografica;
     }
@@ -72,43 +72,13 @@ public class Grupo {
     }
 
     @Basic
-    @Column(name = "paginaWeb", nullable = true, length = 100)
-    public String getPaginaWeb() {
-        return paginaWeb;
+    @Column(name = "foto", nullable = true)
+    public byte[] getFoto() {
+        return foto;
     }
 
-    public void setPaginaWeb(String paginaWeb) {
-        this.paginaWeb = paginaWeb;
-    }
-
-    @Basic
-    @Column(name = "cuentaInstagram", nullable = true, length = 100)
-    public String getCuentaInstagram() {
-        return cuentaInstagram;
-    }
-
-    public void setCuentaInstagram(String cuentaInstagram) {
-        this.cuentaInstagram = cuentaInstagram;
-    }
-
-    @Basic
-    @Column(name = "canalYoutube", nullable = true, length = 100)
-    public String getCanalYoutube() {
-        return canalYoutube;
-    }
-
-    public void setCanalYoutube(String canalYoutube) {
-        this.canalYoutube = canalYoutube;
-    }
-
-    @Basic
-    @Column(name = "cuentaSpotify", nullable = true, length = 100)
-    public String getCuentaSpotify() {
-        return cuentaSpotify;
-    }
-
-    public void setCuentaSpotify(String cuentaSpotify) {
-        this.cuentaSpotify = cuentaSpotify;
+    public void setFoto(byte[] foto) {
+        this.foto = foto;
     }
 
     @Override
@@ -121,18 +91,15 @@ public class Grupo {
                 Objects.equals(annoFormacion, grupo.annoFormacion) &&
                 Objects.equals(discografica, grupo.discografica) &&
                 Objects.equals(generoMusical, grupo.generoMusical) &&
-                Objects.equals(paginaWeb, grupo.paginaWeb) &&
-                Objects.equals(cuentaInstagram, grupo.cuentaInstagram) &&
-                Objects.equals(canalYoutube, grupo.canalYoutube) &&
-                Objects.equals(cuentaSpotify, grupo.cuentaSpotify);
+                Arrays.equals(foto, grupo.foto);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, annoFormacion, discografica, generoMusical, paginaWeb, cuentaInstagram, canalYoutube, cuentaSpotify);
+         return Objects.hash(id, nombre, annoFormacion, discografica, generoMusical);
     }
 
-    @OneToMany(mappedBy = "grupo")
+    @OneToMany(mappedBy = "grupo",fetch=FetchType.EAGER)
     public List<Artista> getArtistas() {
         return artistas;
     }
@@ -148,6 +115,15 @@ public class Grupo {
 
     public void setCanciones(List<Cancion> canciones) {
         this.canciones = canciones;
+    }
+
+    @OneToMany(mappedBy = "grupo")
+    public List<Concierto> getConciertos() {
+        return conciertos;
+    }
+
+    public void setConciertos(List<Concierto> conciertos) {
+        this.conciertos = conciertos;
     }
 
     @OneToMany(mappedBy = "grupo")
@@ -169,11 +145,11 @@ public class Grupo {
     }
 
     @OneToMany(mappedBy = "grupo")
-    public List<Concierto> getConciertos() {
-        return conciertos;
+    public List<Reunion> getReuniones() {
+        return reuniones;
     }
 
-    public void setConciertos(List<Concierto> conciertos) {
-        this.conciertos = conciertos;
+    public void setReuniones(List<Reunion> reuniones) {
+        this.reuniones = reuniones;
     }
 }

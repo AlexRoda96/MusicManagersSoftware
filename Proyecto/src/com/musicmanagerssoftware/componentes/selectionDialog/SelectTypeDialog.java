@@ -1,6 +1,6 @@
 package com.musicmanagerssoftware.componentes.selectionDialog;
 
-import com.musicmanagerssoftware.gui.addViews.*;
+import com.musicmanagerssoftware.gui.views.addviews.*;
 import ownLibs.basic.CompButton;
 
 import javax.swing.*;
@@ -17,8 +17,6 @@ public class SelectTypeDialog extends JDialog implements ActionListener {
     private CompButton button_addBand_viewSelectType;
     private CompButton button_addSong_viewSelectType;
     private CompButton button_addDisc_viewSelectType;
-    private CompButton button_addConcert_viewSelectType;
-    private CompButton button_addMusicTour_viewSelectType;
     private CompButton button_addConcertHall_viewSelectType;
     private JLabel label_text_viewSelectType;
     private String text;
@@ -31,7 +29,7 @@ public class SelectTypeDialog extends JDialog implements ActionListener {
         setTitle("Music Managers Software");
         label_text_viewSelectType.setText(text);
         setBounds(100, 100, 1153, 826);
-        setPreferredSize(new Dimension(800,200));
+        setPreferredSize(new Dimension(600,200));
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setContentPane(contentPane);
         addActionListener(this);
@@ -46,8 +44,6 @@ public class SelectTypeDialog extends JDialog implements ActionListener {
         button_addBand_viewSelectType.addActionListener(listener);
         button_addSong_viewSelectType.addActionListener(listener);
         button_addDisc_viewSelectType.addActionListener(listener);
-        button_addConcert_viewSelectType.addActionListener(listener);
-        button_addMusicTour_viewSelectType.addActionListener(listener);
         button_addConcertHall_viewSelectType.addActionListener(listener);
     }
 
@@ -73,16 +69,6 @@ public class SelectTypeDialog extends JDialog implements ActionListener {
 
             case "Disc":
                 ViewAddDisc viewAddDisc = new ViewAddDisc();
-                dispose();
-                break;
-
-            case "Concert":
-                ViewAddConcert viewAddConcert = new ViewAddConcert();
-                dispose();
-                break;
-
-            case "Muisc Tour":
-                ViewAddMusicTour  viewAddMusicTour = new ViewAddMusicTour ();
                 dispose();
                 break;
 

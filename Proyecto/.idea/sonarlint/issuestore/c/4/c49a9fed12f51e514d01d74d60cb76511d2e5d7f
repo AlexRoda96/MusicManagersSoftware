@@ -1,0 +1,10 @@
+
+I
+java:S1144 "-Remove this unused private "getGrupo" method.(şŞ&8¦°ëü×.
+W
+java:S1117!":Rename "sesion" which hides the field declared at line 18.(šº¯ê8ÕÿÍü×.
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŞÀèÅ8Ÿ¾Î¡Ù.
+W
+java:S1117":Rename "sesion" which hides the field declared at line 18.(šº¯ê8¸Í‹ü×.
+]	java:S125("<This block of commented-out lines of code should be removed.(å…¥§üÿÿÿÿ8´ÒĞÁÙ.

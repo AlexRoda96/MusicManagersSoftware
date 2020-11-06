@@ -1,0 +1,78 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(â¼‰›
+D
+java:S3740"/Provide the parametrized type for this generic.(ÕïŸ#
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(—êó
+>
+java:S16043"(Make this anonymous inner class a lambda(€æ´Á
+C
+java:S16049"(Make this anonymous inner class a lambda(ü—ó­ÿÿÿÿÿ
+C
+java:S1604H"(Make this anonymous inner class a lambda(ıĞ‰ÿÿÿÿÿ
+	java:S116"eRename this field "button_save_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÄÍéøÿÿÿÿ
+	java:S116"gRename this field "button_cancel_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯­ìğùÿÿÿÿ
+~	java:S116"jRename this field "button_addArtist_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şãÄ
+ƒ	java:S116"iRename this field "button_addImage_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ“äûıÿÿÿÿ
+‹	java:S116"qRename this field "textField_numberEntries_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®š‚üÿÿÿÿ
+ˆ	java:S116"nRename this field "textField_entryPrice_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È õûÿÿÿÿ
+{	java:S116"fRename this field "list_artists_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¼‰›
+}	java:S116"cRename this field "lbl_image_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹À‚¡øÿÿÿÿ
+}	java:S116"hRename this field "lbl_dateTicket_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÍĞ
+ƒ	java:S116"iRename this field "lbl_concertTime_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Õùœşÿÿÿÿ
+ƒ	java:S116"iRename this field "lbl_ticketPrice_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÌµÖşÿÿÿÿ
+‚	java:S116"hRename this field "lbl_minimunAge_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŒÅÏÿÿÿÿÿ
+…	java:S116"kRename this field "lbl_numberEntries_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ»Š€ûÿÿÿÿ
+ƒ	java:S116"iRename this field "lbl_concertDate_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êêÛÅûÿÿÿÿ
+	java:S116"eRename this field "panel_image_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘€¡µøÿÿÿÿ
+	java:S116"jRename this field "checkBox_merchan_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ïöº
+‚	java:S116"nRename this field "comboBox_musicalTour_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕïŸ#
+€	java:S116"lRename this field "scrollPane_artists_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å•Â
+„	java:S116 "pRename this field "datePicker_dateTickets_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‰‰@
+ˆ	java:S116!"nRename this field "dateTime_concertTime_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠ×¿úÿÿÿÿ
+Š	java:S116""pRename this field "datePicker_concertDate_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æË¯’üÿÿÿÿ
+|	java:S116#"bRename this field "lbl_band_addViewConcert" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æåÈêúÿÿÿÿ
+U
+java:S1161B":Add the "@Override" annotation above this method signature(†§şıÿÿÿÿ
+X
+java:S1068"CRemove this unused "button_addArtist_addViewConcert" private field.(şãÄ
+]
+java:S1068"BRemove this unused "button_addImage_addViewConcert" private field.(ÿ“äûıÿÿÿÿ
+e
+java:S1068"JRemove this unused "textField_numberEntries_addViewConcert" private field.(®š‚üÿÿÿÿ
+b
+java:S1068"GRemove this unused "textField_entryPrice_addViewConcert" private field.(È õûÿÿÿÿ
+U
+java:S1068"?Remove this unused "list_artists_addViewConcert" private field.(â¼‰›
+W
+java:S1068"<Remove this unused "lbl_image_addViewConcert" private field.(¹À‚¡øÿÿÿÿ
+W
+java:S1068"ARemove this unused "lbl_dateTicket_addViewConcert" private field.(ãÍĞ
+]
+java:S1068"BRemove this unused "lbl_concertTime_addViewConcert" private field.(¾Õùœşÿÿÿÿ
+]
+java:S1068"BRemove this unused "lbl_ticketPrice_addViewConcert" private field.(­ÌµÖşÿÿÿÿ
+\
+java:S1068"ARemove this unused "lbl_minimunAge_addViewConcert" private field.(ÉŒÅÏÿÿÿÿÿ
+_
+java:S1068"DRemove this unused "lbl_numberEntries_addViewConcert" private field.(ˆ»Š€ûÿÿÿÿ
+]
+java:S1068"BRemove this unused "lbl_concertDate_addViewConcert" private field.(êêÛÅûÿÿÿÿ
+Y
+java:S1068">Remove this unused "panel_image_addViewConcert" private field.(‘€¡µøÿÿÿÿ
+Y
+java:S1068"CRemove this unused "checkBox_merchan_addViewConcert" private field.(—ïöº
+\
+java:S1068"GRemove this unused "comboBox_musicalTour_addViewConcert" private field.(ÕïŸ#
+Z
+java:S1068"ERemove this unused "scrollPane_artists_addViewConcert" private field.(Å•Â
+^
+java:S1068 "IRemove this unused "datePicker_dateTickets_addViewConcert" private field.(Š‰‰@
+b
+java:S1068!"GRemove this unused "dateTime_concertTime_addViewConcert" private field.(áŠ×¿úÿÿÿÿ
+d
+java:S1068""IRemove this unused "datePicker_concertDate_addViewConcert" private field.(æË¯’üÿÿÿÿ
+V
+java:S1068#";Remove this unused "lbl_band_addViewConcert" private field.(æåÈêúÿÿÿÿ
+G
+java:S1068$",Remove this unused "spinner1" private field.(²£èüúÿÿÿÿ
