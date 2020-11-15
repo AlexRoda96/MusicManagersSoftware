@@ -8,6 +8,12 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
+/**
+ * Clase con utilidades de Hibernate
+ * @author Alejandro Roda
+ * @version 1.0
+ * @since 12/11/2020
+ */
 public class HibernateUtil {
 
     private static SessionFactory sessionFactory;

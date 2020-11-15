@@ -16,6 +16,7 @@ public class Sala {
     private String paginaWeb;
     private Integer numeroTelef;
     private Double precioAlquiler;
+    private byte[] foto;
     private List<Concierto> conciertos;
 
     @Id
@@ -118,6 +119,16 @@ public class Sala {
         this.precioAlquiler = precioAlquiler;
     }
 
+    @Basic
+    @Column(name = "foto", nullable = true)
+    public byte[] getFoto() {
+        return foto;
+    }
+
+    public void setFoto(byte[] foto) {
+        this.foto = foto;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -132,7 +143,8 @@ public class Sala {
                 Objects.equals(tipoSala, sala.tipoSala) &&
                 Objects.equals(paginaWeb, sala.paginaWeb) &&
                 Objects.equals(numeroTelef, sala.numeroTelef) &&
-                Objects.equals(precioAlquiler, sala.precioAlquiler);
+                Objects.equals(precioAlquiler, sala.precioAlquiler) &&
+                Objects.equals(foto, sala.foto);
     }
 
     @Override

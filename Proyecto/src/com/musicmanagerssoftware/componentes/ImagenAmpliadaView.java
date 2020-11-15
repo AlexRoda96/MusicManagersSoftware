@@ -10,6 +10,7 @@ public class ImagenAmpliadaView extends JDialog {
     public JLabel lbl_image;
 
     public ImagenAmpliadaView(){
+        setResizable(false);
         setBounds(100, 100, 700, 500);
         getContentPane().setLayout(new BorderLayout());
         contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));

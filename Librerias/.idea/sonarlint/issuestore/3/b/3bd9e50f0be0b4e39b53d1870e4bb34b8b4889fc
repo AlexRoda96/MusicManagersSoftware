@@ -1,0 +1,98 @@
+
+F
+java:S3740Þ"/Provide the parametrized type for this generic.(½º¥ˆ
+d
+java:S1192á"HDefine a constant instead of duplicating this literal "#939CAD" 6 times.(¯ºúýùÿÿÿÿ
+a
+java:S1192k"KDefine a constant instead of duplicating this literal "secondary" 11 times.(Òâæ®
+c
+java:S1192o"HDefine a constant instead of duplicating this literal "primary" 7 times.(Ý²äýøÿÿÿÿ
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(®Åà½
+k	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï ýËÿÿÿÿÿ
+k	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¯Öýÿÿÿÿ
+g	java:S117Þ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½º¥ˆ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÓ çýÿÿÿÿ
+t
+java:S4144õ"]Update this method so that its implementation is not identical to "default_type" on line 368.(±ØÑÜ
+
+java:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŠÎ”ßûÿÿÿÿ
+C
+java:S1948"(Make "ripple" transient or serializable.(Ó²œùþÿÿÿÿ
+A
+java:S1948"+Make "elevation" transient or serializable.(¥Ã®õ
+F
+java:S1948"0Make "elevationRound" transient or serializable.(êØìÑ
+=
+java:S1948%"'Make "shape" transient or serializable.(Šý¥®
+E
+java:S2387"/"cursor" is the name of a field in "Component".(‘Ã··
+P
+java:S1161;":Add the "@Override" annotation above this method signature(¿¥“Ð
+P
+java:S1161?":Add the "@Override" annotation above this method signature(±Ýª”
+U
+java:S1161D":Add the "@Override" annotation above this method signature(Ö„˜þúÿÿÿÿ
+U
+java:S1161I":Add the "@Override" annotation above this method signature(•ßçùÿÿÿÿ
+P
+java:S1161O":Add the "@Override" annotation above this method signature(ÄìËä
+P
+java:S1161V":Add the "@Override" annotation above this method signature(ÈÊ“À
+i
+java:S3776V"SRefactor this method to reduce its Cognitive Complexity from 100 to the 15 allowed.(ÈÊ“À
+?
+java:S1905k")Remove this unnecessary cast to "String".(Òâæ®
+?
+java:S1905m")Remove this unnecessary cast to "String".(Òâæ®
+D
+java:S1905o")Remove this unnecessary cast to "String".(Ý²äýøÿÿÿÿ
+@
+java:S1905Œ")Remove this unnecessary cast to "String".(Òâæ®
+E
+java:S1905Ž")Remove this unnecessary cast to "String".(Ý²äýøÿÿÿÿ
+@
+java:S1905£")Remove this unnecessary cast to "String".(Òâæ®
+@
+java:S1905¾")Remove this unnecessary cast to "String".(Òâæ®
+@
+java:S1905À")Remove this unnecessary cast to "String".(Òâæ®
+E
+java:S1905Â")Remove this unnecessary cast to "String".(Ý²äýøÿÿÿÿ
+@
+java:S1905ß")Remove this unnecessary cast to "String".(Òâæ®
+E
+java:S1905á")Remove this unnecessary cast to "String".(Ý²äýøÿÿÿÿ
+@
+java:S1905ö")Remove this unnecessary cast to "String".(Òâæ®
+V
+java:S1161Š":Add the "@Override" annotation above this method signature(ŠÎ”ßûÿÿÿÿ
+V
+java:S1161":Add the "@Override" annotation above this method signature(¼üÛèÿÿÿÿÿ
+V
+java:S1161©":Add the "@Override" annotation above this method signature(¾Îâþùÿÿÿÿ
+Q
+java:S1161´":Add the "@Override" annotation above this method signature(  ×ˆ
+V
+java:S1161¹":Add the "@Override" annotation above this method signature(°ºúÚúÿÿÿÿ
+V
+java:S1161Ã":Add the "@Override" annotation above this method signature(ª¶žŽûÿÿÿÿ
+`
+java:S1871ä"IThis case's code block is the same as the block for the case on line 352.(€ó²
+d	java:S100ð"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð×¼Ç
+d	java:S100õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ØÑÜ
+i	java:S100ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¥ÅÂüÿÿÿÿ
+Q
+java:S1161ÿ":Add the "@Override" annotation above this method signature(¾äŠé
+d	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ž»Ñ
+E
+java:S2786·")Remove this redundant "static" qualifier.(ŒŸ°®øÿÿÿÿ
+?
+java:S2786¿")Remove this redundant "static" qualifier.(ó×ä
+E
+java:S2786Ç")Remove this redundant "static" qualifier.(”Šêîúÿÿÿÿ
+E
+java:S2786Ð")Remove this redundant "static" qualifier.(Ìï×òþÿÿÿÿ
+I
+java:S1481\".Remove this unused "offset_lr" local variable.(Ï ýËÿÿÿÿÿ
+I
+java:S1481]".Remove this unused "offset_td" local variable.(·¯Öýÿÿÿÿ

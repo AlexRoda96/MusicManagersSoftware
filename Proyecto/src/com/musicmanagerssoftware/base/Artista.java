@@ -228,6 +228,6 @@ public class Artista {
 
     @Override
     public String toString() {
-        return nombreArtistico;
+        return " - " + nombreArtistico;
     }
 }

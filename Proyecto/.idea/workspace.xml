@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="574b3c7a-8441-4083-9bdb-43854d987e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Proyect/Proyect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proyect/Proyecto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/Hilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/DeleteViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/out/artifacts/ownLibs_jar/Librerias.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/out/artifacts/ownLibs_jar/ar-ownLibs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/out/artifacts/ownLibs_jar/ar-ownLibs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Proyecto_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/0247e604058d85be966a7ec1522a05c1922b39cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/035e90a9938f99c3d33a55399a1fa00ac8f7e7ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/0449c6682899e002c9a227d4fee16ed8b7b10766" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19370a4244f7cacfcc2317384e2c12412548f997" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/226b4554cfe3312aac3a71e0a3e20a0db0bb79f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/257eaf662a9114fe614ed22e1bb82ff36132441b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2608069855a6270e8368cacebacb7b3e359b2b28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2ff6550f2744c223d66ec533c8352531444accdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f89797c846a3942b022a7f0842759aea79136c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47f0ec1d868b6d30161cf9e537c34f8cf9be457e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b509d87063770e332d1a0dc521468c88a5f29be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c7e19f041062ec6af24103f17d7a8f5226bde38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/524fbabb9c34b348becff5425aeeaced8e15058f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fd148824401c2aa66efa1ec34eda7c9b176ad02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6eef7c797462b7166eab69a45796b92f4aa33d3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/719f70d1769c34b33f2ac97a43fb7bbc745dcf67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7379b1be156905d425d7250fa8e2e4fd6c0cc965" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78919443d0901e45c8c6d1cc8ad004c44956ef30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/795470d170176c27b03011eae02d4565fbd2f5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/860bd3950bab419844b97a1364be5de18ba6495e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92c73e777e6278141da3f301cd3da3ace6acab9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9538d92506175c3a99b621c59bd2231483394b36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f72dde3913c49f6fdd4998e2c672a1a59ea8b96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa7aed372c8a835da5cafc7769a1f0073825b3ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abc17e3349fc9d38a79f6fc7ea90075b3b1f1f81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac6542e2371de53672389f0839961aa466be0283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/adbb3f57d36bd1b11d5bf746102486fa3a0c991c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1d104e44034b129e081bc203335ad524ddb8077" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b814ef270b975265502237d91db05b20060fe5ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8a8df17c31e002d8eb755954b2261fe56d40acd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9f7a35a1248ac0e4a875a9ccae1de9b1d2bd649" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfe39a2e2ebcd1dba7a7104084d80da12de44275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c49a9fed12f51e514d01d74d60cb76511d2e5d7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4fb965fef939484d98c1e2f60cce28c3e6593a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbfd79cb8977bfc3ae2c4205949a2312e0411c56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc20a6ee85f16787215d6844c0ed011f4a47f653" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf26c215af3853c13d6a1b46e6eaffd3af436ddf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7dd981c8302545a4450c23591cfe6df8f46d623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df1be12848a97cf0c3f2ed9b61bf4763b1e6f4e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfef43edb254c7183da510f5b1fb199b2a709282" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4b1fd2293ba1e598e6bec4e0ee3b6b6851eb5a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e52ff3f1f718550813c563941bfa387885ba2942" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e60afb10063282e42bd6d65733ed4692902c431d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9c91b2983fee4fc6fcafc7ddaac8da71f36b558" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed0543cdc85ae661abc548275d42a433a1bef370" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef2ea509d3e1f2ae4a616b14c72ae0166fa54269" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ar-ownLibs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ar-ownLibs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/Proyecto.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/Proyecto.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/AcercaDe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Ampliar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Artista.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Añadir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Buscar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Calendario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Cancion.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Copiar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Cortar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Eliminar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Estadistica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Exportar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Grupo.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Guardar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Idioma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/IndiceAyuda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/LGoodDatePicker-10.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/NoImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Pegar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Planificar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Preferencias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/RSMaterialButtons.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Salir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Usuarios.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Versiones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/ar-ownLibs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/bootstrap-timepicker-0.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/byte-buddy-1.10.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/DataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Artista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Cancion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Cancion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Concierto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Concierto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Disco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Disco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Gira.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Gira.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Grupo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Grupo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Reunion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Reunion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Sala.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Sala.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ArtistPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ArtistPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/BandPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/BandPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ConcertPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ConcertPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/DiscPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/DiscPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelCancion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelCancion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelGira.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelGira.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/selectionDialog/SelectTypeDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MenuView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/interfaces/MethodsPanels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/interfaces/MethodsPanels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/util/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/util/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/hibernate-core-5.4.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jgoodies-common-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/jgoodies-forms-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/miglayout-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Artista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Concierto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Concierto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Disco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Gira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Gira.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/ConcertPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/ConcertPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/DiscPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/DiscPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelCancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelCancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelGira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelGira.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/selectionDialog/SelectTypeDialog.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/selectionDialog/SelectTypeDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcertHall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddMusicTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scripts Sql/musicDb.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kCJ3p08pt8JDygL1ih0CR4olZA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="363" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2413793" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexl\Documents\MusicManagerProject\MusicManagersSoftware\Proyecto\src\com\musicmanagerssoftware\gui\views\modifyViews" />
+      <recent name="C:\Users\alexl\Documents\MusicManagerProject\MusicManagersSoftware\Proyecto\lib" />
+      <recent name="C:\Users\alexl\Documents\MusicManagerProject\MusicManagersSoftware\Proyecto\src\com\musicmanagerssoftware\gui\views\deleteViews" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DeleteView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.musicmanagerssoftware.gui.views.deleteViews.DeleteView" />
+      <module name="Proyecto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.musicmanagerssoftware.gui.views.deleteViews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Proyecto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DeleteView" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="574b3c7a-8441-4083-9bdb-43854d987e90" name="Default Changelist" comment="" />
+      <created>1605198447853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605198447853</updated>
+      <workItem from="1605198453398" duration="29352000" />
+      <workItem from="1605270239832" duration="13906000" />
+      <workItem from="1605381675048" duration="8829000" />
+      <workItem from="1605454872444" duration="744000" />
+      <workItem from="1605455691380" duration="7859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1605230777093">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605230777093" />
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605223049949">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605223049949" />
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1605218464065">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="689" y="315" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605218464065" />
+    <state x="1920" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605272558405">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="1920" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605272558405" />
+    <state x="1922" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605227555007">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="1922" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605227555007" />
+    <state x="741" y="304" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1605223050805">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="834" y="409" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1605200748456">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="834" y="409" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605200748456" />
+    <state x="741" y="304" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605223050805" />
+    <state x="757" y="420" key="DetectedRootsChooserDialog" timestamp="1605201439274">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="757" y="420" key="DetectedRootsChooserDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605201439274" />
+    <state x="666" y="266" key="FileChooserDialogImpl" timestamp="1605265790889">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="666" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605265790889" />
+    <state width="1034" height="369" key="GridCell.Tab.0.bottom" timestamp="1605462699200">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1323" height="24" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605440727296" />
+    <state width="1323" height="24" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605443411491" />
+    <state width="1557" height="226" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1605198879395" />
+    <state width="1034" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605462699200" />
+    <state width="1034" height="369" key="GridCell.Tab.0.center" timestamp="1605462699199">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1323" height="24" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
+    <state width="1323" height="24" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
+    <state width="1557" height="226" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1605198879395" />
+    <state width="1034" height="369" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605462699199" />
+    <state width="1034" height="369" key="GridCell.Tab.0.left" timestamp="1605462699199">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1323" height="24" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
+    <state width="1323" height="24" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
+    <state width="1557" height="226" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1605198879394" />
+    <state width="1034" height="369" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605462699199" />
+    <state width="1034" height="369" key="GridCell.Tab.0.right" timestamp="1605462699199">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1323" height="24" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
+    <state width="1323" height="24" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
+    <state width="1557" height="226" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1605198879395" />
+    <state width="1034" height="369" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605462699199" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1605458987369">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605458987369" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1605458987368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605458987368" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1605458987368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605458987368" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1605458987368">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605458987368" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1605201448065">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605201448065" />
+    <state x="839" y="319" key="UIDesigner.ListEditorDialog" timestamp="1605458946877">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="839" y="319" key="UIDesigner.ListEditorDialog/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605458946877" />
+    <state x="512" y="254" width="895" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605264266802">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="512" y="254" width="895" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605264266802" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1605439174716">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1605439174716" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605223326192">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1605223326192" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

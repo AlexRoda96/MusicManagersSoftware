@@ -15,13 +15,13 @@ public class ConcertPanel extends JPanel {
     JScrollPane scrollPane_canciones;
 
     //JList
-    JList list_conciertos;
-    JList list_canciones;
+    public JList list_conciertos;
+    public JList list_canciones;
 
     //JLabel
     JLabel Conciertos;
     JLabel lbl_nombre;
-    JLabel lbl_imagen;
+    public JLabel lbl_imagen;
     JLabel lbl_pais;
     JLabel lbl_ciudad;
     JLabel lbl_fechaConcierto;
@@ -38,29 +38,33 @@ public class ConcertPanel extends JPanel {
     JLabel lbl_merchan;
 
     //JTextField
-    CompTextFieldNoEditable textField_nombre;
-    CompTextFieldNoEditable textField_pais;
-    CompTextFieldNoEditable textField_ciudad;
-    CompTextFieldNoEditable textField_fechaSalidaEntradas;
-    CompTextFieldNoEditable textField_numEntradas;
-    CompTextFieldNoEditable textField_fechaConcierto;
-    CompTextFieldNoEditable textField_Sala;
-    CompTextFieldNoEditable textField_precioEntrada;
-    CompTextFieldNoEditable textField_edadMinima;
-    CompTextFieldNoEditable textField_gira;
-    CompTextFieldNoEditable textField_horaApertura;
-    CompTextFieldNoEditable textField_artista;
-    CompTextFieldNoEditable textField_grupo;
-    CompTextFieldNoEditable textField_merchan;
+    public CompTextFieldNoEditable textField_nombre;
+    public CompTextFieldNoEditable textField_pais;
+    public CompTextFieldNoEditable textField_ciudad;
+    public  CompTextFieldNoEditable textField_fechaSalidaEntradas;
+    public CompTextFieldNoEditable textField_numEntradas;
+    public CompTextFieldNoEditable textField_fechaConcierto;
+    public CompTextFieldNoEditable textField_Sala;
+    public CompTextFieldNoEditable textField_precioEntrada;
+    public CompTextFieldNoEditable textField_edadMinima;
+    public CompTextFieldNoEditable textField_gira;
+    public CompTextFieldNoEditable textField_horaApertura;
+    public CompTextFieldNoEditable textField_artista;
+    public CompTextFieldNoEditable textField_grupo;
+    public CompTextFieldNoEditable textField_merchan;
 
     //JPanel
     JPanel panel_imagen;
 
     //Jbutton
-    CompButton button_ampliar;
+    public CompButton button_ampliar;
 
     //JSeparator
     JSeparator separator;
+
+    //Dlm
+    public DefaultListModel dlmConcierto;
+    public DefaultListModel dlmCanciones;
 
     public ConcertPanel(){
         setLayout(new MigLayout("", "[][290.00,grow][][220.00][][73.00,grow][]", "[][][][][][][][][][][][][][][][][][][][][][27.00][27.00][][][][][][grow]"));
@@ -82,7 +86,7 @@ public class ConcertPanel extends JPanel {
         //JLabel
         Conciertos = new JLabel("Conciertos");
         lbl_nombre = new JLabel("Nombre");
-        lbl_imagen = new JLabel("New label");
+        lbl_imagen = new JLabel();
         lbl_pais = new JLabel("Pa\u00EDs");
         lbl_ciudad = new JLabel("Ciudad");
         lbl_fechaConcierto = new JLabel("Feha del concierto");
@@ -123,6 +127,13 @@ public class ConcertPanel extends JPanel {
         //JSeparator
         separator= new JSeparator();
 
+        //Dlm
+        dlmConcierto = new DefaultListModel();
+        list_conciertos.setModel(dlmConcierto);
+
+        dlmCanciones = new DefaultListModel();
+        list_canciones.setModel(dlmCanciones);
+
     }
 
     private void editComponents(){
@@ -130,7 +141,6 @@ public class ConcertPanel extends JPanel {
         scrollPane_conciertos.setColumnHeaderView(Conciertos);
         textField_nombre.setColumns(10);
         panel_imagen.setBorder(new LineBorder(new Color(0, 0, 0)));
-        panel_imagen.setLayout(new BorderLayout(0, 0));
         textField_pais.setColumns(10);
         textField_ciudad.setColumns(10);
         textField_fechaConcierto.setColumns(10);
@@ -148,6 +158,7 @@ public class ConcertPanel extends JPanel {
         scrollPane_canciones.setViewportView(list_canciones);
         button_ampliar.setText("Ampliar");
         button_ampliar.setIcon(new ImageIcon("ico\\ampliar.png\\"));
+        button_ampliar.setActionCommand("Ampliar Imagen Concierto ");
     }
 
     private void addComponents(){
@@ -155,8 +166,6 @@ public class ConcertPanel extends JPanel {
         add(lbl_nombre, "cell 3 1");
         add(textField_nombre, "cell 3 2,growx");
         add(panel_imagen, "cell 5 2 1 6,grow");
-        add(lbl_imagen);
-        panel_imagen.add(lbl_imagen);
         add(lbl_pais, "cell 3 3");
         add(textField_pais, "cell 3 4,growx");
         add(lbl_ciudad, "cell 3 5");
@@ -187,6 +196,8 @@ public class ConcertPanel extends JPanel {
         add(separator, "cell 3 21 3 2,growx,aligny center");
         add(lbl_canciones, "cell 3 23");
         add(scrollPane_canciones, "cell 3 24 1 4,grow");
+        panel_imagen.add(lbl_imagen, BorderLayout.CENTER);
+        lbl_imagen.setPreferredSize(new Dimension(200,130));
     }
 
 

@@ -16,6 +16,7 @@ public class Concierto {
     private Date fechaSalidaEntradas;
     private Integer numeroEntradas;
     private Byte merchan;
+    private byte[] cartel;
     private Double precioEntrada;
     private Time horaApertura;
     private Integer edadMinima;
@@ -135,6 +136,15 @@ public class Concierto {
         this.edadMinima = edadMinima;
     }
 
+    @Column(name = "cartel", nullable = true)
+    public byte[] getCartel() {
+        return cartel;
+    }
+
+    public void setCartel(byte[] cartel) {
+        this.cartel = cartel;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -149,7 +159,8 @@ public class Concierto {
                 Objects.equals(merchan, concierto.merchan) &&
                 Objects.equals(precioEntrada, concierto.precioEntrada) &&
                 Objects.equals(horaApertura, concierto.horaApertura) &&
-                Objects.equals(edadMinima, concierto.edadMinima);
+                Objects.equals(edadMinima, concierto.edadMinima) &&
+                Objects.equals(cartel,concierto.cartel);
     }
 
     @Override
@@ -207,6 +218,6 @@ public class Concierto {
 
     @Override
     public String toString() {
-        return "- " +ciudad + " " + fecha;
+        return " - " +ciudad + " " + fecha;
     }
 }

@@ -6,11 +6,8 @@ import java.awt.event.InputEvent;
 
 public class CompMenuItem extends JMenuItem {
 
-    public CompMenuItem(String titulo, String comando, int tecla, String icon) {
+    public CompMenuItem(String titulo,String actionCommand) {
         setText(titulo);
-        setActionCommand(comando);
-        setIcon(new ImageIcon(icon));
-        setFont(new Font("Consolas", Font.PLAIN, 12));
-        setAccelerator(KeyStroke.getKeyStroke(tecla, InputEvent.CTRL_MASK));
+        setActionCommand(actionCommand);
     }
 }

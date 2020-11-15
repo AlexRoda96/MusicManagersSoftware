@@ -1,34 +1,0 @@
-
-x	java:S116"WRename this field "panel_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šûÀ„ùÿÿÿÿ8Ó¨ƒûØ.
-q	java:S116"URename this field "lbl_titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶±ƒº8Ó¨ƒûØ.
-r	java:S116"VRename this field "lbl_formato" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¹Ï¿8Ó¨ƒûØ.
-}	java:S116)"\Rename this field "textField_artista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼î„·ûÿÿÿÿ8Ó¨ƒûØ.
-L
-java:S3740"/Provide the parametrized type for this generic.(øÅÃŞ8Ó¨ƒûØ.
-v	java:S116"URename this field "lbl_imagen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ë’ñüÿÿÿÿ8Ó¨ƒûØ.
-|	java:S116,"[Rename this field "textField_precio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù“½€ûÿÿÿÿ8Ó¨ƒûØ.
-{	java:S116"_Rename this field "lbl_fechaPublicacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ›8Ó¨ƒûØ.
-€	java:S116"_Rename this field "scrollPane_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª†ê¬şÿÿÿÿ8Ó¨ƒûØ.
-L
-java:S3740?"/Provide the parametrized type for this generic.(Ş‰Ş¿8¨‰ÍúØ.
-r	java:S116"VRename this field "list_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅÃŞ8Ó¨ƒûØ.
-{	java:S116*"ZRename this field "textField_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹úÑòÿÿÿÿÿ8Ó¨ƒûØ.
-x	java:S116("\Rename this field "textField_formato" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¬Ñë8Ó¨ƒûØ.
-~	java:S116'"bRename this field "textField_generoMusical" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÖèµ8Ó¨ƒûØ.
-x	java:S116"\Rename this field "lbl_generoMusical" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼íª¡8Ó¨ƒûØ.
-	java:S116&"eRename this field "textField_fechaPublicacion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍ‡Ç8Ó¨ƒûØ.
-v	java:S116 "ZRename this field "lbl_discografia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÅªÁ8Ó¨ƒûØ.
-q	java:S116"URename this field "lbl_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ñ˜‰8Ó¨ƒûØ.
-q	java:S116!"URename this field "lbl_precio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÊêŠ8Ó¨ƒûØ.
-t	java:S116""XRename this field "lbl_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦æ‚8Ó¨ƒûØ.
-p	java:S116"TRename this field "lbl_grupo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÆÆé8Ó¨ƒûØ.
-z	java:S116."YRename this field "button_ampliar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÛ»Ãûÿÿÿÿ8Ó¨ƒûØ.
-}	java:S116+"aRename this field "textField_discografica" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›íœ8Ó¨ƒûØ.
-|	java:S116%"[Rename this field "textField_titulo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼×÷™øÿÿÿÿ8Ó¨ƒûØ.
-L
-java:S3740"/Provide the parametrized type for this generic.(ÕòÕ•8Ó¨ƒûØ.
-w	java:S116"VRename this field "lbl_artista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¤Õüÿÿÿÿ8Ó¨ƒûØ.
-u	java:S116"YRename this field "list_canciones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕòÕ•8Ó¨ƒûØ.
-}	java:S116"\Rename this field "scrollPane_discos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è£äºıÿÿÿÿ8Ó¨ƒûØ.
-Q
-java:S3740>"/Provide the parametrized type for this generic.(²Äª“ÿÿÿÿÿ8×ÄúØ.

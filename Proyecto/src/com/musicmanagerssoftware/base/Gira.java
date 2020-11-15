@@ -15,6 +15,7 @@ public class Gira {
     private Double coste;
     private Double ganancia;
     private Artista artista;
+    private byte[] cartel;
     private List<Concierto> conciertos;
     private Grupo grupo;
 
@@ -88,6 +89,15 @@ public class Gira {
         this.ganancia = ganancia;
     }
 
+    @Column(name = "cartel", nullable = true)
+    public byte[] getCartel() {
+        return cartel;
+    }
+
+    public void setCartel(byte[] cartel) {
+        this.cartel = cartel;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -99,7 +109,8 @@ public class Gira {
                 Objects.equals(fechaFin, gira.fechaFin) &&
                 Objects.equals(presupuesto, gira.presupuesto) &&
                 Objects.equals(coste, gira.coste) &&
-                Objects.equals(ganancia, gira.ganancia);
+                Objects.equals(ganancia, gira.ganancia) &&
+                Objects.equals(cartel,gira.cartel);
     }
 
     @Override
@@ -137,6 +148,6 @@ public class Gira {
 
     @Override
     public String toString() {
-        return "- " + nombre + "   " + fechaInicio;
+        return " - " + nombre + "   " + fechaInicio;
     }
 }

@@ -16,13 +16,13 @@ public class DiscPanel extends JPanel {
     JScrollPane scrollPane_discos;
     JScrollPane scrollPane_canciones;
 
-    JList list_discos;
-    JList list_canciones;
+    public JList list_discos;
+    public JList list_canciones;
 
     JSeparator separator;
 
     JLabel lbl_titulo = new JLabel("T\u00EDtulo");
-    JLabel lbl_imagen = new JLabel("New label");
+    public JLabel lbl_imagen = new JLabel();
     JLabel lbl_fechaPublicacion = new JLabel("Fecha Publiaci\u00F3n");
     JLabel lbl_generoMusical = new JLabel("G\u00E9nero Musical");
     JLabel lbl_discos = new JLabel("Discos");
@@ -34,16 +34,19 @@ public class DiscPanel extends JPanel {
     JLabel lbl_canciones = new JLabel("Canciones");
 
 
-    CompTextFieldNoEditable textField_titulo ;
-    CompTextFieldNoEditable textField_fechaPublicacion;
-    CompTextFieldNoEditable textField_generoMusical;
-    CompTextFieldNoEditable textField_formato;
-    CompTextFieldNoEditable textField_artista;
-    CompTextFieldNoEditable textField_grupo;
-    CompTextFieldNoEditable textField_discografica;
-    CompTextFieldNoEditable textField_precio;
+    public CompTextFieldNoEditable textField_titulo ;
+    public CompTextFieldNoEditable textField_fechaPublicacion;
+    public CompTextFieldNoEditable textField_generoMusical;
+    public CompTextFieldNoEditable textField_formato;
+    public CompTextFieldNoEditable textField_artista;
+    public CompTextFieldNoEditable textField_grupo;
+    public CompTextFieldNoEditable textField_discografica;
+    public CompTextFieldNoEditable textField_precio;
 
-    CompButton button_ampliar;
+    public DefaultListModel dlmDiscos;
+    public DefaultListModel dlmCancion;
+
+    public CompButton button_ampliar;
 
     public DiscPanel (){
         setLayout(new MigLayout("", "[][290.00,grow][][220.00][][73.00,grow][]", "[][][][][][][][][][][][][][][][][][27.00][27.00][][][grow]"));
@@ -65,7 +68,7 @@ public class DiscPanel extends JPanel {
         separator = new JSeparator();
 
         lbl_titulo = new JLabel("T\u00EDtulo");
-        lbl_imagen = new JLabel("New label");
+        lbl_imagen = new JLabel();
         lbl_fechaPublicacion = new JLabel("Fecha Publiaci\u00F3n");
         lbl_generoMusical = new JLabel("G\u00E9nero Musical");
         lbl_discos = new JLabel("Discos");
@@ -87,11 +90,16 @@ public class DiscPanel extends JPanel {
         textField_precio = new CompTextFieldNoEditable();
 
         button_ampliar = new CompButton();
+
+        dlmDiscos = new DefaultListModel();
+        list_discos.setModel(dlmDiscos);
+
+        dlmCancion = new DefaultListModel();
+        list_canciones.setModel(dlmCancion);
     }
 
     private void editComponents(){
         panel_imagen.setBorder(new LineBorder(new Color(0, 0, 0)));
-        panel_imagen.setLayout(new BorderLayout(0, 0));
         textField_titulo.setColumns(10);
         textField_fechaPublicacion.setColumns(10);
         scrollPane_discos.setViewportView(list_discos);
@@ -106,12 +114,12 @@ public class DiscPanel extends JPanel {
         scrollPane_canciones.setViewportView(list_canciones);
         button_ampliar.setText("Ampliar");
         button_ampliar.setIcon(new ImageIcon("ico\\ampliar.png\\"));
+        button_ampliar.setActionCommand("Ampliar Imagen Disco");
     }
 
     private void addComponents(){
         add(lbl_titulo, "cell 3 1,alignx left");
         add(panel_imagen, "cell 5 2 1 6,grow");
-        panel_imagen.add(lbl_imagen, BorderLayout.CENTER);
         add(textField_titulo, "cell 3 2,growx");
         add(lbl_fechaPublicacion, "cell 3 3,alignx left");
         add(textField_fechaPublicacion, "cell 3 4,growx");
@@ -132,5 +140,7 @@ public class DiscPanel extends JPanel {
         add(lbl_canciones, "cell 3 19");
         add(scrollPane_canciones, "cell 3 20,grow");
         add(button_ampliar, "cell 5 8,growx,aligny center");
+        panel_imagen.add(lbl_imagen, BorderLayout.CENTER);
+        lbl_imagen.setPreferredSize(new Dimension(200,130));
     }
 }

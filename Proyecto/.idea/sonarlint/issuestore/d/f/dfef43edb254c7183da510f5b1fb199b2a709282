@@ -1,68 +1,0 @@
-
-„	java:S116"jRename this field "textField_annoFormacion_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’…ôÿÿÿÿÿ
-F
-java:S1068")Remove this unused "list1" private field.(¢†ö8éÇ´Ó×.
-W
-java:S1068"<Remove this unused "textField_nombre_addBand" private field.(‘Û˜Üøÿÿÿÿ
-F
-java:S1068")Remove this unused "list2" private field.(¡ŒÚ“8ïéĞÓ×.
-s	java:S116"^Rename this field "list_discos_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïûŸ§
-L
-java:S3740"/Provide the parametrized type for this generic.(¢†ö8éÇ´Ó×.
-	java:S116"jRename this field "textField_generoMusical_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¨ğı
-Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(¢É“ß
-C
-java:S1604B"(Make this anonymous inner class a lambda(ıĞ‰ÿÿÿÿÿ
-s	java:S116"^Rename this field "label_image_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¯ñ¨
-}	java:S116"aRename this field "list_canciones_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çöåè8ØÙ±Ó×.
-L
-java:S3740"/Provide the parametrized type for this generic.(Çöåè8ØÙ±Ó×.
-E
-java:S3740"/Provide the parametrized type for this generic.(í®ìµ
-€	java:S116"fRename this field "label_generoMusical_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¢œÿÿÿÿÿ
-M
-java:S1068"7Remove this unused "list_discos_addBand" private field.(ïûŸ§
-U
-java:S1161<":Add the "@Override" annotation above this method signature(†§şıÿÿÿÿ
-L
-java:S3740"/Provide the parametrized type for this generic.(¡ŒÚ“8ïéĞÓ×.
-o	java:S116"ZRename this field "panel_imagen_AA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¡õ
-^
-java:S1068"CRemove this unused "textField_annoFormacion_addBand" private field.(’…ôÿÿÿÿÿ
-y	java:S116"_Rename this field "label_nombre_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ïÒÎÿÿÿÿÿ
-S
-java:S1068"8Remove this unused "label_nombre_addBand" private field.(¨ïÒÎÿÿÿÿÿ
-{	java:S116"fRename this field "label_annoFormacion_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î»ñ–
-Y
-java:S1068"CRemove this unused "textField_generoMusical_addBand" private field.(ª¨ğı
-z	java:S116"`Rename this field "button_cancel_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ­œöüÿÿÿÿ
-I
-java:S1068"3Remove this unused "panel_imagen_AA" private field.(ô¡õ
-E
-java:S3740"/Provide the parametrized type for this generic.(À–ìö
-C
-java:S16043"(Make this anonymous inner class a lambda(–‹æÇøÿÿÿÿ
-[
-java:S1128">Remove this unused import 'ownLibs.basic.CompButtonAnimation'.(‹×‰Ì8¤¤Ó×.
-M
-java:S1068"7Remove this unused "label_image_addBand" private field.(Æ¯ñ¨
-U
-java:S1068"?Remove this unused "label_annoFormacion_addBand" private field.(î»ñ–
-s	java:S116"^Rename this field "button_save_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆñî£
-V
-java:S1068"@Remove this unused "list_conciertos_addBandlist1" private field.(í®ìµ
-C
-java:S1604-"(Make this anonymous inner class a lambda(‰ãÁıÿÿÿÿ
-C
-java:S1068"-Remove this unused "comboBox1" private field.(À–ìö
-E
-java:S3740"/Provide the parametrized type for this generic.(ïûŸ§
-W
-java:S1068":Remove this unused "list_canciones_addBand" private field.(Çöåè8ØÙ±Ó×.
-}	java:S116"cRename this field "textField_nombre_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Û˜Üøÿÿÿÿ
-Z
-java:S1068"?Remove this unused "label_generoMusical_addBand" private field.(“¢œÿÿÿÿÿ
-|	java:S116"gRename this field "list_conciertos_addBandlist1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í®ìµ
-T
-java:S1068">Remove this unused "label_Discografica_addBand" private field.(¬·¼Ó
-z	java:S116"eRename this field "label_Discografica_addBand" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬·¼Ó

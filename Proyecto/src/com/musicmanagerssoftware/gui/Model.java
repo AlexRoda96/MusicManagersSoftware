@@ -29,15 +29,15 @@ public class Model {
         return listaArtistas;
     }
 
-    private ArrayList<Grupo> getGrupo(){
+    public ArrayList<Grupo> getGrupo(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Grupo ");
         ArrayList<Grupo> listaGrupos = (ArrayList<Grupo>)query.getResultList();
         sesion.close();
         return listaGrupos;
     }
-/*
-    private ArrayList<Cancion> getCancion(){
+
+    public ArrayList<Cancion> getCancion(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Cancion ");
         ArrayList<Cancion> listaCanciones = (ArrayList<Cancion>)query.getResultList();
@@ -45,7 +45,7 @@ public class Model {
         return listaCanciones;
     }
 
-    private ArrayList<Disco> getDisco(){
+    public ArrayList<Disco> getDisco(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Disco ");
         ArrayList<Disco> listaDiscos = (ArrayList<Disco>)query.getResultList();
@@ -54,7 +54,7 @@ public class Model {
     }
 
 
-    private ArrayList<Concierto> getConcierto(){
+    public ArrayList<Concierto> getConcierto(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Concierto ");
         ArrayList<Concierto> listaConciertos = (ArrayList<Concierto>)query.getResultList();
@@ -62,7 +62,7 @@ public class Model {
         return listaConciertos;
     }
 
-    private ArrayList<Gira> getGira(){
+    public ArrayList<Gira> getGira(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Gira ");
         ArrayList<Gira> listaGiras = (ArrayList<Gira>)query.getResultList();
@@ -70,7 +70,7 @@ public class Model {
         return listaGiras;
     }
 
-    private ArrayList<Reunion> getReunion(){
+    public ArrayList<Reunion> getReunion(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Reunion ");
         ArrayList<Reunion> listaReuniones = (ArrayList<Reunion>)query.getResultList();
@@ -78,7 +78,7 @@ public class Model {
         return listaReuniones;
     }
 
-    private ArrayList<Sala> getSala(){
+    public ArrayList<Sala> getSala(){
         Session sesion = HibernateUtil.getCurrentSession();
         Query query = sesion.createQuery("FROM Sala ");
         ArrayList<Sala> listaSalas = (ArrayList<Sala>)query.getResultList();
@@ -229,13 +229,72 @@ public class Model {
     }
 
 
-    public void eliminarArtista(Artista artistaEliminada) {
+    public void deleteArtista(Artista artistaEliminada) {
         Session sesion = HibernateUtil.getCurrentSession();
         sesion.beginTransaction();
         sesion.delete(artistaEliminada);
         sesion.getTransaction().commit();
         sesion.close();
     }
-*/
+
+    public void deleteGrupo(Grupo grupoSeleccionado) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(grupoSeleccionado);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+    public void deleteDisco(Disco discoSeleccionado) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(discoSeleccionado);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+    public void deleteCancion(Cancion cancionSeleccionada) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(cancionSeleccionada);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+
+    public void deleteGira(Gira giraSelccionada) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(giraSelccionada);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+    public void deleteConcierto(Concierto conciertoSeleccionado) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(conciertoSeleccionado);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+    public void deleteSala(Sala salaSeleccionada) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(salaSeleccionada);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+    public void deleteReunion(Reunion reunionSeleccioanda) {
+        Session sesion = HibernateUtil.getCurrentSession();
+        sesion.beginTransaction();
+        sesion.delete(reunionSeleccioanda);
+        sesion.getTransaction().commit();
+        sesion.close();
+    }
+
+
+
 
 }

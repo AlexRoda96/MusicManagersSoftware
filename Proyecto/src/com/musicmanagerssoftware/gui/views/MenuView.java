@@ -6,14 +6,44 @@ import ownLibs.menu.CompMenuItem;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
 public class MenuView extends JMenuBar {
 
-    public CompMenuItem menuItemAdd;
-    public CompMenuItem menuItemDelete;
-    public CompMenuItem menuItemModify;
-    public CompMenuItem menuItemSearch;
+    public CompMenu menuObjeto;
+    public CompMenu menuAdd;
+    public CompMenu menuDelete;
+    public CompMenu menuModify;
+    public CompMenu menuSearch;
+
+    //ADD
+    public CompMenuItem addItemArtista;
+    public CompMenuItem addItemGrupo;
+    public CompMenuItem addItemDisco;
+    public CompMenuItem addItemCancion;
+    public CompMenuItem addItemGira;
+    public CompMenuItem addItemConcierto;
+    public CompMenuItem addItemSala;
+    public CompMenuItem addItemReunion;
+
+    //DELETE
+    public CompMenuItem deleteItemArtista;
+    public CompMenuItem deleteItemGrupo;
+    public CompMenuItem deleteItemDisco;
+    public CompMenuItem deleteItemCancion;
+    public CompMenuItem deleteItemGira;
+    public CompMenuItem deleteItemConcierto;
+    public CompMenuItem deleteItemSala;
+    public CompMenuItem deleteItemReunion;
+
+    //MODIFY
+    public CompMenuItem modifyItemArtista;
+    public CompMenuItem modifyItemGrupo;
+    public CompMenuItem modifyItemDisco;
+    public CompMenuItem modifyItemCancion;
+    public CompMenuItem modifyItemGira;
+    public CompMenuItem modifyItemConcierto;
+    public CompMenuItem modifyItemSala;
+    public CompMenuItem modifyItemReunion;
 
     /**
      * Consutructor de BarraMenu
@@ -21,8 +51,8 @@ public class MenuView extends JMenuBar {
     public MenuView(){
         setBackground(new Color(245, 245, 245));
         MenuArchivo();
-        MenuEditar();
-        MenuAccion();
+        initMenuEditar();
+        initMenuAccion();
         //MenuMostrar();
         MenuHerramientas();
         MenuAjustes();
@@ -35,13 +65,13 @@ public class MenuView extends JMenuBar {
      */
     private void MenuArchivo(){
 
-        CompMenu menuArchivo = new CompMenu("Archivo");
+        CompMenu menuArchivo = new CompMenu("Archivo",null,null);
 
-        CompMenuItem menuItemGuardar = new CompMenuItem("Guardar","Menu Guardar", KeyEvent.VK_S,
+        CompMenu menuItemGuardar = new CompMenu("Guardar","Menu Guardar",
                 "ico\\Guardar.png");
-        CompMenuItem menuItemExportar = new CompMenuItem("Exportar","Menu Exportar", KeyEvent.VK_E,
+        CompMenu menuItemExportar = new CompMenu("Exportar","Menu Exportar",
                 "ico\\Exportar.png");
-        CompMenuItem menuItemSalir = new CompMenuItem("Salir","Menu Salir",KeyEvent.VK_F4,
+        CompMenu menuItemSalir = new CompMenu("Salir","Menu Salir",
                 "ico\\Salir.png");
 
         JSeparator separador = new JSeparator();
@@ -59,18 +89,18 @@ public class MenuView extends JMenuBar {
      * Menu que contiene el Menu Editar, el cual contienen 4 Menu Items (Cortar, copiar, pegar y
      * portapapeles)
      */
-    private void MenuEditar(){
+    private void initMenuEditar(){
 
-        CompMenu menuEditar = new CompMenu("Editar");
+        CompMenu menuEditar = new CompMenu("Editar",null,null);
 
-        CompMenuItem menuItemCortar = new CompMenuItem("Cortar","Menu Cortar",KeyEvent.VK_X,
+        CompMenu menuItemCortar = new CompMenu("Cortar","Menu Cortar",
                 "ico\\Cortar.png");
-        CompMenuItem menuItemCopiar = new CompMenuItem("Copiar","Menu Copiar",KeyEvent.VK_C,
+        CompMenu menuItemCopiar = new CompMenu("Copiar","Menu Copiar",
                 "ico\\Copiar.png");
-        CompMenuItem menuItemPegar = new CompMenuItem("Pegar","Menu Pegar", KeyEvent.VK_V,
+        CompMenu menuItemPegar = new CompMenu("Pegar","Menu Pegar",
                 "ico\\Pegar.png");
-        CompMenuItem menuItemPortapapeles = new CompMenuItem("Portapapeles", "Menu Portapapeles",
-                KeyEvent.VK_P,"ico\\Salir.png");
+        CompMenu menuItemPortapapeles = new CompMenu("Portapapeles", "Menu Portapapeles",
+               "ico\\Salir.png");
 
         add(menuEditar);
         menuEditar.add(menuItemCortar);
@@ -83,24 +113,92 @@ public class MenuView extends JMenuBar {
      * Método que contiene el Menu Acción, el cual contiene 3 Menu Items (Añadir, eliminar y
      * buscar):
      */
-    private void MenuAccion(){
+    private void initMenuAccion(){
 
-        CompMenu menuObjeto = new CompMenu("Acción");
+        menuObjeto = new CompMenu("Acción",null,null);
 
-        menuItemAdd = new CompMenuItem("Añadir","Menu Add",KeyEvent.VK_INSERT,
+        menuAdd = new CompMenu("Añadir",null,
                 "ico\\Añadir.png");
-        menuItemDelete= new CompMenuItem("Eliminar","Menu Delete",
-                KeyEvent.VK_DELETE, "ico\\Eliminar.png");
-        menuItemModify= new CompMenuItem("Modificar","Menu Modify",
-                KeyEvent.VK_DELETE, "ico\\Eliminar.png");
-        menuItemSearch = new CompMenuItem("Buscar","Menu Search",KeyEvent.VK_F,
+        menuDelete = new CompMenu("Eliminar",null,
+                "ico\\Eliminar.png");
+        menuModify = new CompMenu("Modificar",null,
+                "ico\\Eliminar.png");
+        menuSearch = new CompMenu("Buscar",null,
                 "ico\\Buscar.png");
 
         add(menuObjeto);
-        menuObjeto.add(menuItemAdd);
-        menuObjeto.add(menuItemDelete);
-        menuObjeto.add(menuItemModify);
-        menuObjeto.add(menuItemSearch);
+        initSubMenuAdd();
+        initSubMenuDelete();
+        initSubMenuModify();
+        menuObjeto.add(menuSearch);
+
+
+    }
+
+    private void initSubMenuAdd(){
+        menuObjeto.add(menuAdd);
+
+        addItemArtista = new CompMenuItem("Artista","Add Artista");
+        addItemGrupo = new CompMenuItem("Grupo", "Add Grupo");
+        addItemDisco = new CompMenuItem("Disco", "Add Disco");
+        addItemCancion = new CompMenuItem("Canción", "Add Cancion");
+        addItemConcierto = new CompMenuItem("Concierto", "Add Concierto");
+        addItemGira = new CompMenuItem("Gira", "Add Gira");
+        addItemSala = new CompMenuItem("Sala", "Add Sala");
+        addItemReunion = new CompMenuItem("Reunion", "Add Reunion");
+
+        menuAdd.add(addItemArtista);
+        menuAdd.add(addItemGrupo);
+        menuAdd.add(addItemCancion);
+        menuAdd.add(addItemDisco);
+        menuAdd.add(addItemGira);
+        menuAdd.add(addItemConcierto);
+        menuAdd.add(addItemSala);
+        menuAdd.add(addItemReunion);
+    }
+
+    private void initSubMenuDelete(){
+        menuObjeto.add(menuDelete);
+
+        deleteItemArtista = new CompMenuItem("Artista","Delete Artista");
+        deleteItemGrupo = new CompMenuItem("Grupo", "Delete Grupo");
+        deleteItemDisco = new CompMenuItem("Disco", "Delete Disco");
+        deleteItemCancion = new CompMenuItem("Canción", "Delete Cancion");
+        deleteItemConcierto = new CompMenuItem("Concierto", "Delete Concierto");
+        deleteItemGira = new CompMenuItem("Gira", "Delete Gira");
+        deleteItemSala = new CompMenuItem("Sala", "Delete Sala");
+        deleteItemReunion = new CompMenuItem("Reunion", "Delete Reunion");
+
+        menuDelete.add(deleteItemArtista);
+        menuDelete.add(deleteItemGrupo);
+        menuDelete.add(deleteItemCancion);
+        menuDelete.add(deleteItemDisco);
+        menuDelete.add(deleteItemGira);
+        menuDelete.add(deleteItemConcierto);
+        menuDelete.add(deleteItemSala);
+        menuDelete.add(deleteItemReunion);
+    }
+
+    private void initSubMenuModify(){
+        menuObjeto.add(menuModify);
+
+        modifyItemArtista = new CompMenuItem("Artista","Modify Artista");
+        modifyItemGrupo = new CompMenuItem("Grupo", "Modify Grupo");
+        modifyItemDisco = new CompMenuItem("Disco", "Modify Disco");
+        modifyItemCancion = new CompMenuItem("Canción", "Modify Cancion");
+        modifyItemConcierto = new CompMenuItem("Concierto", "Modify Concierto");
+        modifyItemGira = new CompMenuItem("Gira", "Modify Gira");
+        modifyItemSala = new CompMenuItem("Sala", "Modify Sala");
+        modifyItemReunion = new CompMenuItem("Reunion", "Modify Reunion");
+
+        menuModify.add(modifyItemArtista);
+        menuModify.add(modifyItemGrupo);
+        menuModify.add(modifyItemCancion);
+        menuModify.add(modifyItemDisco);
+        menuModify.add(modifyItemGira);
+        menuModify.add(modifyItemConcierto);
+        menuModify.add(modifyItemSala);
+        menuModify.add(modifyItemReunion);
     }
 
     /*
@@ -123,14 +221,11 @@ public class MenuView extends JMenuBar {
      */
     private void MenuHerramientas(){
 
-        CompMenu menuHerramientas = new CompMenu("Herramientas");
+        CompMenu menuHerramientas = new CompMenu("Herramientas",null,null);
 
-        CompMenuItem menuItemEstadisticas = new CompMenuItem("Estadística","Menu Estadisticas",
-                KeyEvent.VK_INSERT,"ico\\Estadistica.png");
-        CompMenuItem menuItemPlanificar = new CompMenuItem("Planificar","Menu Planificar",
-                KeyEvent.VK_DELETE,"ico\\Planificar.png");
-        CompMenuItem menuItemCalendario = new CompMenuItem("Calenadrio","Menu Calendario",
-                KeyEvent.VK_F,"ico\\Calendario.png");
+        CompMenuItem menuItemEstadisticas = new CompMenuItem("Estadística","Estadisitica");
+        CompMenuItem menuItemPlanificar = new CompMenuItem("Planificar","Planifi");
+        CompMenuItem menuItemCalendario = new CompMenuItem("Calenadrio","Calendario");
 
         add(menuHerramientas);
         menuHerramientas.add(menuItemEstadisticas);
@@ -144,14 +239,11 @@ public class MenuView extends JMenuBar {
      */
     private void MenuAjustes(){
 
-        CompMenu menuAjustes = new CompMenu("Ajustes");
+        CompMenu menuAjustes = new CompMenu("Ajustes",null,null);
 
-        CompMenuItem menuItemCuenta = new CompMenuItem("Cuenta","Menu Cuenta",KeyEvent.VK_INSERT,
-                "ico\\Usuarios.png");
-        CompMenuItem menuItemPreferencias = new CompMenuItem("Preferencias","Menu Preferencias",
-                KeyEvent.VK_DELETE,"ico\\Preferencias.png");
-        CompMenuItem menuItemIdioma = new CompMenuItem("Idioma","Menu Idioma",KeyEvent.VK_F,
-                "ico\\Idioma.png");
+        CompMenuItem menuItemCuenta = new CompMenuItem("Cuenta",null);
+        CompMenuItem menuItemPreferencias = new CompMenuItem("Preferencias",null);
+        CompMenuItem menuItemIdioma = new CompMenuItem("Idioma",null);
 
         add(menuAjustes);
         menuAjustes.add(menuItemCuenta);
@@ -165,14 +257,11 @@ public class MenuView extends JMenuBar {
      */
     private void MenuAyuda(){
 
-        CompMenu menuAyuda = new CompMenu("Ayuda");
+        CompMenu menuAyuda = new CompMenu("Ayuda",null,null);
 
-        CompMenuItem menuItemAcercaDe = new CompMenuItem("Acerca de","Menu Acerca de",
-                KeyEvent.VK_INSERT,"ico\\AcercaDe.png");
-        CompMenuItem menuItemIndiceAyuda = new CompMenuItem("Indice de Ayuda","Menu Indice ayuda",
-                KeyEvent.VK_DELETE,"ico\\IndiceAyuda.png");
-        CompMenuItem menuItemVersiones = new CompMenuItem("Versiones","Menu Versiones",
-                KeyEvent.VK_F,"ico\\Versiones.png");
+        CompMenuItem menuItemAcercaDe = new CompMenuItem("Acerca de",null);
+        CompMenuItem menuItemIndiceAyuda = new CompMenuItem("Indice de Ayuda",null);
+        CompMenuItem menuItemVersiones = new CompMenuItem("Versiones",null);
 
         add(menuAyuda);
         menuAyuda.add(menuItemAcercaDe);

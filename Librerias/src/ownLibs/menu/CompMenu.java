@@ -5,8 +5,9 @@ import java.awt.*;
 
 public class CompMenu extends JMenu {
 
-    public CompMenu(String archivo) {
+    public CompMenu(String archivo ,String comando ,String icon) {
         setText(archivo);
-        setFont(new Font("Consolas", Font.BOLD, 12));
+        setActionCommand(comando);
+        setIcon(new ImageIcon(icon));
     }
 }

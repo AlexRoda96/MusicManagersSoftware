@@ -1,9 +1,0 @@
-
-w
-java:S1104
-"UMake lbl_image a static final constant or non-public and provide accessors if needed.(şü¿¾üÿÿÿÿ8øıËÙ.
-X	java:S110"<This class has 6 parents which is greater than 5 authorized.(’‚Šõ8Ò¸ùËÙ.
-i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(¬ëëÆ8Ò¸ùËÙ.
-u	java:S116
-"TRename this field "lbl_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şü¿¾üÿÿÿÿ8øıËÙ.

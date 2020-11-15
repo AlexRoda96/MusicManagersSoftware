@@ -152,4 +152,9 @@ public class Grupo {
     public void setReuniones(List<Reunion> reuniones) {
         this.reuniones = reuniones;
     }
+
+    @Override
+    public String toString() {
+        return " - " + nombre;
+    }
 }

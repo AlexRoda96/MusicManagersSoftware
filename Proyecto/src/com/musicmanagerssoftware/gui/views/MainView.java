@@ -17,15 +17,20 @@ public class MainView extends JFrame {
     public DefaultTableModel dtmArtistas;
     public JTable tabla;
     public ArtistPanel panelArtista;
+    public DiscPanel panelDisco;
+    public ConcertPanel panelConcierto;
     public BandPanel panelGrupo;
+    public PanelCancion panelCancion;
+    public PanelGira panelGira;
     public JTabbedPane tabbedPane;
+    public JLabel artista;
+    public MenuView menuView;
 
     public MainView() {
         setFont(new Font("Consolas", Font.BOLD, 12));
         setTitle("Music Managers Software");
         setBounds(100, 100, 1153, 826);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        //setResizable(false);
         contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(contentPane);
@@ -45,7 +50,7 @@ public class MainView extends JFrame {
     }
 
     public void menu() {
-        MenuView menuView = new MenuView();
+        menuView = new MenuView();
         MenuController menuController = new MenuController(menuView);
         setJMenuBar(menuView);
     }
@@ -62,11 +67,7 @@ public class MainView extends JFrame {
 
         tabla = new JTable();
 
-
-       // list = new JList();
-        //list.setValueIsAdjusting(true);
         scrollPane.setViewportView(tabla);
-
 
         JLabel lblNewLabel = new JLabel("ART\u00CDSTAS");
         scrollPane.setColumnHeaderView(lblNewLabel);
@@ -80,16 +81,16 @@ public class MainView extends JFrame {
         panelGrupo = new BandPanel();
         tabbedPane.addTab("Grupo", null, panelGrupo, null);
 
-        ConcertPanel panelConcierto = new ConcertPanel();
-        tabbedPane.addTab("Conciertos", null, panelConcierto, null);
-
-        DiscPanel panelDisco = new DiscPanel();
+        panelDisco = new DiscPanel();
         tabbedPane.addTab("Discos", null, panelDisco, null);
 
-        PanelCancion panelCancion = new PanelCancion();
+        panelCancion = new PanelCancion();
         tabbedPane.addTab("Canciones", null, panelCancion, null);
 
-        PanelGira panelGira = new PanelGira();
+        panelConcierto = new ConcertPanel();
+        tabbedPane.addTab("Conciertos", null, panelConcierto, null);
+
+        panelGira = new PanelGira();
         tabbedPane.addTab("Giras", null, panelGira, null);
     }
 }

@@ -15,6 +15,7 @@ public class Cancion {
     private Integer duracion;
     private Byte videoclip;
     private Artista artista;
+    private byte[] imagen;
     private Disco disco;
     private Grupo grupo;
     private List<Concierto> concierto;
@@ -89,6 +90,16 @@ public class Cancion {
         this.videoclip = videoclip;
     }
 
+    @Basic
+    @Column(name = "imagen", nullable = true)
+    public byte[] getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(byte[] imagen) {
+        this.imagen = imagen;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -100,7 +111,8 @@ public class Cancion {
                 Objects.equals(formato, cancion.formato) &&
                 Objects.equals(genero, cancion.genero) &&
                 Objects.equals(duracion, cancion.duracion) &&
-                Objects.equals(videoclip, cancion.videoclip);
+                Objects.equals(videoclip, cancion.videoclip) &&
+                Objects.equals(imagen,cancion.imagen);
     }
 
     @Override
@@ -149,6 +161,6 @@ public class Cancion {
 
     @Override
     public String toString() {
-        return "- " + titulo;
+        return " - " + titulo;
     }
 }

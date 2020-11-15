@@ -20,16 +20,13 @@ public class PanelCancion extends JPanel implements MethodsPanels {
     JScrollPane scrollPane_conciertos;
 
     //Jlist
-    JList list_canciones;
-    JList list_conciertos ;
+    public JList list_canciones;
+    public JList list_conciertos ;
 
-    //JPane
-    JPanel panel_image;
 
     //Jlabel
     JLabel lbl_canciones;
     JLabel lbl_titulo;
-    JLabel lbl_image;
     JLabel lbl_fechaPublicacion;
     JLabel lbl_formato;
     JLabel lbl_genero;
@@ -41,27 +38,29 @@ public class PanelCancion extends JPanel implements MethodsPanels {
     JLabel lbl_conciertos;
 
     //JText
-    CompTextFieldNoEditable textField_titulo;
-    CompTextFieldNoEditable textField_fechaPublicacion;
-    CompTextFieldNoEditable textField_formato;
-    CompTextFieldNoEditable textField_genero;
-    CompTextFieldNoEditable textField_duracion;
-    CompTextFieldNoEditable textField_videoclip;
-    CompTextFieldNoEditable textField_artista;
-    CompTextFieldNoEditable textField_grupo;
-    CompTextFieldNoEditable textField_disco;
+    public CompTextFieldNoEditable textField_titulo;
+    public CompTextFieldNoEditable textField_fechaPublicacion;
+    public CompTextFieldNoEditable textField_formato;
+    public CompTextFieldNoEditable textField_genero;
+    public CompTextFieldNoEditable textField_duracion;
+    public CompTextFieldNoEditable textField_videoclip;
+    public CompTextFieldNoEditable textField_artista;
+    public CompTextFieldNoEditable textField_grupo;
+    public CompTextFieldNoEditable textField_disco;
 
-    //Button
-    CompButton button_ampliar;
 
     //JSeparator
     JSeparator separator;
+
+    //Dlm
+    public DefaultListModel dlmCanciones;
+    public DefaultListModel dlmConciertos;
 
     /**
      * Constructor panelCancion
      */
     public PanelCancion() {
-        setLayout(new MigLayout("", "[][290.00,grow][][220.00][][73.00,grow][]", "[][][][][][][][][][][][][][][][][][][27.00][27.00][27.00][][][grow]"));
+        setLayout(new MigLayout("", "[][290.00,grow][][220.00,grow][]", "[][][][][][][][][][][][][][][][][][][27.00][27.00][27.00][][][grow]"));
         initComponents();
         editComponents();
         addComponents();
@@ -83,13 +82,9 @@ public class PanelCancion extends JPanel implements MethodsPanels {
         list_canciones = new JList();
         list_conciertos = new JList();
 
-        //JPanel
-        panel_image = new JPanel();
-
         //JLabel
         lbl_canciones = new JLabel("Canciones");
         lbl_titulo = new JLabel("T\u00EDtulo");
-        lbl_image = new JLabel("New label");
         lbl_fechaPublicacion = new JLabel("Fecha Publicaci\u00F3n");
         lbl_formato = new JLabel("Formato");
         lbl_genero = new JLabel("G\u00E9nero");
@@ -111,11 +106,15 @@ public class PanelCancion extends JPanel implements MethodsPanels {
         textField_grupo = new CompTextFieldNoEditable();
         textField_disco = new CompTextFieldNoEditable();
 
-        //Jbutton
-        button_ampliar = new CompButton();
-
         //JSeparator
         separator = new JSeparator();
+
+        //Dlm
+        dlmCanciones = new DefaultListModel();
+        list_canciones.setModel(dlmCanciones);
+
+        dlmConciertos = new DefaultListModel();
+        list_conciertos.setModel(dlmConciertos);
     }
 
     /**
@@ -125,8 +124,6 @@ public class PanelCancion extends JPanel implements MethodsPanels {
     public void editComponents() {
 
         textField_titulo.setColumns(10);
-        panel_image.setBorder(new LineBorder(new Color(0, 0, 0)));
-        panel_image.setLayout(new BorderLayout(0, 0));
         textField_fechaPublicacion.setColumns(10);
         scrollPane_canciones.setViewportView(list_canciones);
         scrollPane_canciones.setColumnHeaderView(lbl_canciones);
@@ -140,8 +137,6 @@ public class PanelCancion extends JPanel implements MethodsPanels {
         separator.setForeground(Color.BLACK);
         separator.setBackground(Color.BLACK);
         scrollPane_conciertos.setViewportView(list_conciertos);
-        button_ampliar.setText("Ampliar");
-        button_ampliar.setIcon(new ImageIcon("ico\\ampliar.png\\"));
     }
 
     /**
@@ -152,8 +147,6 @@ public class PanelCancion extends JPanel implements MethodsPanels {
 
         add(lbl_titulo, "cell 3 1");
         add(textField_titulo, "flowx,cell 3 2,growx");
-        add(panel_image, "cell 5 2 1 6,grow");
-        panel_image.add(lbl_image, BorderLayout.CENTER);
         add(lbl_fechaPublicacion, "cell 3 3");
         add(textField_fechaPublicacion, "cell 3 4,growx");
         add(scrollPane_canciones, "cell 1 1 1 23,grow");
@@ -161,7 +154,6 @@ public class PanelCancion extends JPanel implements MethodsPanels {
         add(textField_formato, "cell 3 6,growx");
         add(lbl_genero, "cell 3 7");
         add(textField_genero, "cell 3 8,growx");
-        add(button_ampliar, "cell 5 8,growx,aligny center");
         add(lbl_duracion, "cell 3 9");
         add(textField_duracion, "cell 3 10,growx");
         add(lbl_videoclip, "cell 3 11");
