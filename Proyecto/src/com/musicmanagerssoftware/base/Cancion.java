@@ -1,32 +1,32 @@
 package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Cancion {
-    private Integer id;
+    private int id;
     private String titulo;
-    private Date fechaPublicacion;
+    private LocalDate fechaPublicacion;
     private String formato;
     private String genero;
-    private Integer duracion;
-    private Byte videoclip;
+    private float duracion;
+    private String videoclip;
     private Artista artista;
     private byte[] imagen;
     private Disco disco;
     private Grupo grupo;
-    private List<Concierto> concierto;
+    private List<Concierto> conciertos;
 
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -42,11 +42,11 @@ public class Cancion {
 
     @Basic
     @Column(name = "fechaPublicacion", nullable = true)
-    public Date getFechaPublicacion() {
+    public LocalDate getFechaPublicacion() {
         return fechaPublicacion;
     }
 
-    public void setFechaPublicacion(Date fechaPublicacion) {
+    public void setFechaPublicacion(LocalDate fechaPublicacion) {
         this.fechaPublicacion = fechaPublicacion;
     }
 
@@ -72,21 +72,21 @@ public class Cancion {
 
     @Basic
     @Column(name = "duracion", nullable = true)
-    public Integer getDuracion() {
+    public float getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(Integer duracion) {
+    public void setDuracion(float duracion) {
         this.duracion = duracion;
     }
 
     @Basic
     @Column(name = "videoclip", nullable = true)
-    public Byte getVideoclip() {
+    public String getVideoclip() {
         return videoclip;
     }
 
-    public void setVideoclip(Byte videoclip) {
+    public void setVideoclip(String videoclip) {
         this.videoclip = videoclip;
     }
 
@@ -130,7 +130,7 @@ public class Cancion {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_disco", referencedColumnName = "id")
+    @JoinColumn(name = "disco_id", referencedColumnName = "id")
     public Disco getDisco() {
         return disco;
     }
@@ -140,7 +140,7 @@ public class Cancion {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    @JoinColumn(name = "grupo_id", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
@@ -150,17 +150,18 @@ public class Cancion {
     }
 
     @ManyToMany
-    @JoinTable(name = "concierto_cancion", catalog = "", schema = "musicdb", joinColumns = @JoinColumn(name = "id_concierto", referencedColumnName = "id", nullable = false), inverseJoinColumns = @JoinColumn(name = "id_cancion", referencedColumnName = "id", nullable = false))
+    @JoinTable(name = "concierto_cancion",schema = "musicDb", joinColumns = @JoinColumn(name = "cancion_id", referencedColumnName = "id", nullable = false), inverseJoinColumns = @JoinColumn(name = "concierto_id", referencedColumnName = "id", nullable = false))
     public List<Concierto> getConcierto() {
-        return concierto;
+        return conciertos;
     }
 
     public void setConcierto(List<Concierto> concierto) {
-        this.concierto = concierto;
+        this.conciertos = concierto;
     }
 
     @Override
     public String toString() {
         return " - " + titulo;
     }
+
 }

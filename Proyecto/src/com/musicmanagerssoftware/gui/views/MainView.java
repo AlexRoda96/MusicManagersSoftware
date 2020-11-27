@@ -1,21 +1,30 @@
 package com.musicmanagerssoftware.gui.views;
 
-import com.musicmanagerssoftware.componentes.panels.*;
-import com.musicmanagerssoftware.gui.controllers.MenuController;
+import com.musicmanagerssoftware.components.mainpanels.*;
+import com.musicmanagerssoftware.gui.controllers.MenuViewController;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
-
+/**
+ * Vista principal.
+ * @author Alejandro Roda
+ * @since 13/11/2020
+ * @version 1.0
+ */
 public class MainView extends JFrame {
 
+    //Panel
     private JPanel contentPane;
+    //List
     public JList list;
-    public DefaultListModel dlmLista;
+    //DefaultTableModel
     public DefaultTableModel dtmArtistas;
+    //Tabla
     public JTable tabla;
+    //Panels
     public ArtistPanel panelArtista;
     public DiscPanel panelDisco;
     public ConcertPanel panelConcierto;
@@ -24,10 +33,14 @@ public class MainView extends JFrame {
     public PanelGira panelGira;
     public JTabbedPane tabbedPane;
     public JLabel artista;
+    //Menu
     public MenuView menuView;
 
+    /**
+     * Constructor
+     */
     public MainView() {
-        setFont(new Font("Consolas", Font.BOLD, 12));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("ico\\Logo.png"));
         setTitle("Music Managers Software");
         setBounds(100, 100, 1153, 826);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -35,26 +48,31 @@ public class MainView extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(contentPane);
         contentPane.setLayout(new BorderLayout());
-        menu();
-        componentes();
         dtmArtistas = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column){
             return false;
             }
         };
-
+        componentes();
         tabla.setModel(dtmArtistas);
+        menu();
         setLocationRelativeTo(null);
         setVisible(true);
     }
 
+    /**
+     * Inicializa el menu.
+     */
     public void menu() {
         menuView = new MenuView();
-        MenuController menuController = new MenuController(menuView);
+        MenuViewController menuViewController = new MenuViewController(menuView);
         setJMenuBar(menuView);
     }
 
+    /**
+     * Inicializa los componentes.
+     */
     private void componentes(){
         JSplitPane splitPaneGeneral = new JSplitPane();//SplitPanel General
         splitPaneGeneral.setOneTouchExpandable(true);
@@ -75,6 +93,13 @@ public class MainView extends JFrame {
         tabbedPane = new JTabbedPane(JTabbedPane.TOP);
         splitPaneGeneral.setRightComponent(tabbedPane);
 
+        loadPanels();
+    }
+
+    /**
+     * Carga los paneles.
+     */
+    public void loadPanels(){
         panelArtista = new ArtistPanel();
         tabbedPane.addTab("Art\u00EDsta", null, panelArtista, null);
 

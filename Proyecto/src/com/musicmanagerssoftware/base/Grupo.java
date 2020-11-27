@@ -7,9 +7,9 @@ import java.util.Objects;
 
 @Entity
 public class Grupo {
-    private Integer id;
+    private int id;
     private String nombre;
-    private String annoFormacion;
+    private int annoFormacion;
     private String discografica;
     private String generoMusical;
     private byte[] foto;
@@ -20,13 +20,22 @@ public class Grupo {
     private List<Gira> giras;
     private List<Reunion> reuniones;
 
+    public Grupo(String nombre) {
+        this.nombre = nombre;
+
+    }
+
+    public Grupo(){
+
+    }
+
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -41,12 +50,12 @@ public class Grupo {
     }
 
     @Basic
-    @Column(name = "annoFormacion", nullable = true, length = 29)
-    public String getAnnoFormacion() {
+    @Column(name = "annoFormacion", nullable = true)
+    public int getAnnoFormacion() {
         return annoFormacion;
     }
 
-    public void setAnnoFormacion(String annoFormacion) {
+    public void setAnnoFormacion(int annoFormacion) {
         this.annoFormacion = annoFormacion;
     }
 

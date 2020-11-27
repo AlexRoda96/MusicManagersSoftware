@@ -3,7 +3,9 @@ package com.musicmanagerssoftware.gui.controllers;
 import com.musicmanagerssoftware.base.*;
 
 import com.musicmanagerssoftware.gui.Model;
-import com.musicmanagerssoftware.gui.views.deleteViews.DeleteView;
+import com.musicmanagerssoftware.gui.views.deleteviews.DeleteView;
+import com.musicmanagerssoftware.util.AlertUtil;
+import sun.applet.Main;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -25,13 +27,17 @@ public class DeleteViewController {
     private DeleteView deleteView;
     Model model;
     private int type;
+    private boolean haveChanges;
+    private MainViewController mainViewController;
 
     /**
      * Constructor de DeleteViewController
      * @param deleteView
      * @param type
      */
-    public DeleteViewController(DeleteView deleteView,int type){
+    public DeleteViewController(DeleteView deleteView, int type, MainViewController mainViewController){
+        this.mainViewController=mainViewController;
+        haveChanges =false;
         this.deleteView = deleteView;
         this.type = type;
         model = new Model();
@@ -45,18 +51,11 @@ public class DeleteViewController {
      * @return artistaSeleccioando
      */
     private Artista getSelectRowArtista(){
-        //Declarar una variable de tipo Artista y se inicializa en null.
+
         Artista artistaSeleccionado = null;
 
-        //Declarar una variable fila de tipo int que es igual a la fila seleccionada en la tabla.
         int fila = deleteView.table.getSelectedRow();
 
-       /*
-       Se declara la variable firstValue de tipo String que es igual al valor que se encuentra
-       en la primera columna de la final seleccionada, después se recorre la lista de artistas
-       y si el nombre artistico de un artista coincidie con firstValue la variable artista
-       seleccionado se iguala a dicho artista.
-        */
         String firstValue = (String) deleteView.table.getValueAt(fila, 0);
 
         for (Artista artista : model.getArtista()) {
@@ -64,7 +63,7 @@ public class DeleteViewController {
                 artistaSeleccionado = artista;
             }
         }
-        //Devolvemos el artista seleccionado.
+
         return artistaSeleccionado;
     }
 
@@ -246,16 +245,8 @@ public class DeleteViewController {
      */
     private void loadArtista() {
 
-        //Establece el número de filas en el dtm(0).
         deleteView.dtm.setRowCount(0);
-
-        //Declarar una lista de artistas que es igual a la lista de artistas del modelo.
         List<Artista> artistas = model.getArtista();
-
-        /*
-        Si el tamaño de la lista es mayor que 0, se realizan las consultas hasta el último
-        artista y se añaden los datos indicados al dtm de la tabla.
-         */
         if (artistas.size() > 0) {
             Iterator consulta = artistas.iterator();
             while (consulta.hasNext()) {
@@ -488,15 +479,50 @@ public class DeleteViewController {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                /*
-                Se muestra en pantalla un JOptionPane de confirmación, si se acepta dicho panel,
-                se elimina el objeto seleccionado
-                 */
-                JOptionPane.showConfirmDialog(null,"¿CONFIRMA LA ELIMINACIÓN?",
+                int answer = JOptionPane.showConfirmDialog(null,"¿CONFIRMA LA ELIMINACIÓN?",
                         "Confirmación de eliminación",JOptionPane.YES_NO_OPTION,
                         JOptionPane.INFORMATION_MESSAGE);
-                model.deleteArtista(getSelectRowArtista());
+                if(answer==0){
+                    selectDelete();
+                    mainViewController.cargarArtistas();
+                    deleteView.dispose();
+                }else{
+
+                }
             }
         });
+    }
+
+    private void selectDelete(){
+        if(type==0){
+            model.deleteArtista(getSelectRowArtista());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadArtista();
+            haveChanges=true;
+        }else if(type==1){
+            model.deleteGrupo(getSelectRowGrupo());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadGrupo();
+        }else if(type==2){
+            model.deleteCancion(getSelectRowCancion());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadCancion();
+        }else if(type==3){
+            model.deleteDisco(getSelectRowDisco());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadDisco();
+        }else if(type==4){
+            model.deleteGira(getSelectRowGira());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadGira();
+        }else if(type==5){
+            model.deleteConcierto(getSelectRowConcierto());
+            AlertUtil.messageAlert("Se ha eliminado con éxito");
+            loadConcierto();
+        }
+    }
+
+    public boolean isHaveChanges() {
+        return haveChanges;
     }
 }

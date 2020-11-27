@@ -2,6 +2,7 @@ package com.musicmanagerssoftware.util;
 
 import com.musicmanagerssoftware.base.*;
 
+import com.musicmanagerssoftware.base.account.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -20,12 +21,20 @@ public class HibernateUtil {
     private static Session session;
 
     /**
-     * Crea la factoria de sesiones
+     * Constructor
+     */
+    public HibernateUtil() {
+
+    }
+
+    /**
+     * Crea la factoría de sesiones.
      */
     public static void buildSessionFactory() {
+
         Configuration configuration = new Configuration();
         configuration.configure("hibernate.cfg.xml");
-        // Se registran las clases que hay que mapear con cada tabla de la base de datos
+
         configuration.addAnnotatedClass(Artista.class);
         configuration.addAnnotatedClass(Grupo.class);
         configuration.addAnnotatedClass(Cancion.class);
@@ -35,7 +44,20 @@ public class HibernateUtil {
         configuration.addAnnotatedClass(Sala.class);
         configuration.addAnnotatedClass(Reunion.class);
 
+        ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
+                configuration.getProperties()).build();
+        sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+    }
 
+    /**
+     * Crea la factoría de sesiones de usuarios.
+     */
+    public static void buildSessionFactoryUser() {
+
+        Configuration configuration = new Configuration();
+        configuration.configure("hibernateUser.cfg.xml");
+
+        configuration.addAnnotatedClass(User.class);
 
         ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(
                 configuration.getProperties()).build();
@@ -46,6 +68,7 @@ public class HibernateUtil {
      * Abre una nueva sesión
      */
     public static void openSession() {
+
         session = sessionFactory.openSession();
     }
 
@@ -62,7 +85,7 @@ public class HibernateUtil {
     }
 
     /**
-     * Cierra Hibernate
+     * Cierra la sesión.
      */
     public static void closeSessionFactory() {
 

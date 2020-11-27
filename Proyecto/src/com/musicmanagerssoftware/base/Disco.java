@@ -1,19 +1,20 @@
 package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Disco {
-    private Integer id;
+    private int id;
     private String titulo;
-    private Date fechaPublicacion;
+    private LocalDate fechaPublicacion;
     private String generoMusical;
     private String formato;
     private Double precio;
+    private String discografica;
     private byte[] caractula;
     private Artista artista;
     private List<Cancion> canciones;
@@ -21,11 +22,11 @@ public class Disco {
 
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -41,11 +42,11 @@ public class Disco {
 
     @Basic
     @Column(name = "fechaPublicacion", nullable = true)
-    public Date getFechaPublicacion() {
+    public LocalDate getFechaPublicacion() {
         return fechaPublicacion;
     }
 
-    public void setFechaPublicacion(Date fechaPublicacion) {
+    public void setFechaPublicacion(LocalDate fechaPublicacion) {
         this.fechaPublicacion = fechaPublicacion;
     }
 
@@ -67,6 +68,16 @@ public class Disco {
 
     public void setFormato(String formato) {
         this.formato = formato;
+    }
+
+    @Basic
+    @Column(name = "discografica", nullable = true, length = 25)
+    public String getDiscografica() {
+        return discografica;
+    }
+
+    public void setDiscografica(String discografica) {
+        this.discografica = discografica;
     }
 
     @Basic
@@ -100,6 +111,7 @@ public class Disco {
                 Objects.equals(generoMusical, disco.generoMusical) &&
                 Objects.equals(formato, disco.formato) &&
                 Objects.equals(precio, disco.precio) &&
+                Objects.equals(discografica, disco.discografica) &&
                 Arrays.equals(caractula, disco.caractula);
     }
 
@@ -127,7 +139,7 @@ public class Disco {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    @JoinColumn(name = "grupo_id", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }

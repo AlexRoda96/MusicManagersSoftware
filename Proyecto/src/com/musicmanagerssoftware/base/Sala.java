@@ -6,14 +6,13 @@ import java.util.Objects;
 
 @Entity
 public class Sala {
-    private Integer id;
+    private int id;
     private String nombre;
     private String pais;
     private String ciudad;
     private String direccion;
     private Integer aforoMax;
     private String tipoSala;
-    private String paginaWeb;
     private Integer numeroTelef;
     private Double precioAlquiler;
     private byte[] foto;
@@ -21,11 +20,11 @@ public class Sala {
 
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -89,15 +88,6 @@ public class Sala {
         this.tipoSala = tipoSala;
     }
 
-    @Basic
-    @Column(name = "paginaWeb", nullable = true, length = 100)
-    public String getPaginaWeb() {
-        return paginaWeb;
-    }
-
-    public void setPaginaWeb(String paginaWeb) {
-        this.paginaWeb = paginaWeb;
-    }
 
     @Basic
     @Column(name = "numeroTelef", nullable = true)
@@ -141,7 +131,6 @@ public class Sala {
                 Objects.equals(direccion, sala.direccion) &&
                 Objects.equals(aforoMax, sala.aforoMax) &&
                 Objects.equals(tipoSala, sala.tipoSala) &&
-                Objects.equals(paginaWeb, sala.paginaWeb) &&
                 Objects.equals(numeroTelef, sala.numeroTelef) &&
                 Objects.equals(precioAlquiler, sala.precioAlquiler) &&
                 Objects.equals(foto, sala.foto);
@@ -149,7 +138,7 @@ public class Sala {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, pais, ciudad, direccion, aforoMax, tipoSala, paginaWeb, numeroTelef, precioAlquiler);
+        return Objects.hash(id, nombre, pais, ciudad, direccion, aforoMax, tipoSala, numeroTelef, precioAlquiler);
     }
 
     @OneToMany(mappedBy = "sala")
@@ -159,5 +148,10 @@ public class Sala {
 
     public void setConciertos(List<Concierto> conciertos) {
         this.conciertos = conciertos;
+    }
+
+    @Override
+    public String toString() {
+        return nombre + " - " + ciudad;
     }
 }

@@ -1,12 +1,11 @@
-import com.musicmanagerssoftware.gui.controllers.MainController;
 import com.musicmanagerssoftware.gui.Model;
+import com.musicmanagerssoftware.gui.controllers.MainViewController;
 import com.musicmanagerssoftware.gui.views.MainView;
+import com.musicmanagerssoftware.gui.views.loginview.LoginWindow;
 
 public class Main {
 
     public static void main(final String[] args) throws Exception {
-       MainView view = new MainView();
-       Model model = new Model();
-       MainController controller = new MainController(view,model);
+       LoginWindow loginWindow = new LoginWindow();
     }
 }

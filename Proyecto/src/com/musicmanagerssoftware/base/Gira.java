@@ -2,18 +2,16 @@ package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Gira {
-    private Integer id;
+    private int id;
     private String nombre;
-    private Date fechaInicio;
-    private Date fechaFin;
-    private Double presupuesto;
-    private Double coste;
-    private Double ganancia;
+    private LocalDate fechaInicio;
+    private LocalDate fechaFin;
     private Artista artista;
     private byte[] cartel;
     private List<Concierto> conciertos;
@@ -21,11 +19,11 @@ public class Gira {
 
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -41,52 +39,22 @@ public class Gira {
 
     @Basic
     @Column(name = "fechaInicio", nullable = true)
-    public Date getFechaInicio() {
+    public LocalDate getFechaInicio() {
         return fechaInicio;
     }
 
-    public void setFechaInicio(Date fechaInicio) {
+    public void setFechaInicio(LocalDate fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
 
     @Basic
     @Column(name = "fechaFin", nullable = true)
-    public Date getFechaFin() {
+    public LocalDate getFechaFin() {
         return fechaFin;
     }
 
-    public void setFechaFin(Date fechaFin) {
+    public void setFechaFin(LocalDate fechaFin) {
         this.fechaFin = fechaFin;
-    }
-
-    @Basic
-    @Column(name = "presupuesto", nullable = true, precision = 0)
-    public Double getPresupuesto() {
-        return presupuesto;
-    }
-
-    public void setPresupuesto(Double presupuesto) {
-        this.presupuesto = presupuesto;
-    }
-
-    @Basic
-    @Column(name = "coste", nullable = true, precision = 0)
-    public Double getCoste() {
-        return coste;
-    }
-
-    public void setCoste(Double coste) {
-        this.coste = coste;
-    }
-
-    @Basic
-    @Column(name = "ganancia", nullable = true, precision = 0)
-    public Double getGanancia() {
-        return ganancia;
-    }
-
-    public void setGanancia(Double ganancia) {
-        this.ganancia = ganancia;
     }
 
     @Column(name = "cartel", nullable = true)
@@ -107,15 +75,12 @@ public class Gira {
                 Objects.equals(nombre, gira.nombre) &&
                 Objects.equals(fechaInicio, gira.fechaInicio) &&
                 Objects.equals(fechaFin, gira.fechaFin) &&
-                Objects.equals(presupuesto, gira.presupuesto) &&
-                Objects.equals(coste, gira.coste) &&
-                Objects.equals(ganancia, gira.ganancia) &&
                 Objects.equals(cartel,gira.cartel);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nombre, fechaInicio, fechaFin, presupuesto, coste, ganancia);
+        return Objects.hash(id, nombre, fechaInicio, fechaFin);
     }
 
     @ManyToOne
@@ -137,7 +102,7 @@ public class Gira {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    @JoinColumn(name = "grupo_id", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }

@@ -1,24 +1,28 @@
 package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
+import java.nio.MappedByteBuffer;
 import java.sql.Date;
 import java.sql.Time;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Concierto {
-    private Integer id;
+    private int id;
     private String nombre;
     private String pais;
     private String ciudad;
-    private Date fecha;
-    private Date fechaSalidaEntradas;
+    private LocalDate fecha;
+    private LocalDate fechaSalidaEntradas;
     private Integer numeroEntradas;
-    private Byte merchan;
+    private boolean merchan;
     private byte[] cartel;
     private Double precioEntrada;
-    private Time horaApertura;
+    private LocalTime horaApertura;
     private Integer edadMinima;
     private Artista artista;
     private List<Cancion> canciones;
@@ -28,11 +32,11 @@ public class Concierto {
 
     @Id
     @Column(name = "id", nullable = false)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -68,21 +72,21 @@ public class Concierto {
 
     @Basic
     @Column(name = "fecha", nullable = true)
-    public Date getFecha() {
+    public LocalDate getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 
     @Basic
     @Column(name = "fechaSalidaEntradas", nullable = true)
-    public Date getFechaSalidaEntradas() {
+    public LocalDate getFechaSalidaEntradas() {
         return fechaSalidaEntradas;
     }
 
-    public void setFechaSalidaEntradas(Date fechaSalidaEntradas) {
+    public void setFechaSalidaEntradas(LocalDate fechaSalidaEntradas) {
         this.fechaSalidaEntradas = fechaSalidaEntradas;
     }
 
@@ -98,11 +102,11 @@ public class Concierto {
 
     @Basic
     @Column(name = "merchan", nullable = true)
-    public Byte getMerchan() {
+    public boolean getMerchan() {
         return merchan;
     }
 
-    public void setMerchan(Byte merchan) {
+    public void setMerchan(boolean merchan) {
         this.merchan = merchan;
     }
 
@@ -118,11 +122,11 @@ public class Concierto {
 
     @Basic
     @Column(name = "horaApertura", nullable = true)
-    public Time getHoraApertura() {
+    public LocalTime getHoraApertura() {
         return horaApertura;
     }
 
-    public void setHoraApertura(Time horaApertura) {
+    public void setHoraApertura(LocalTime horaApertura) {
         this.horaApertura = horaApertura;
     }
 
@@ -187,7 +191,7 @@ public class Concierto {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    @JoinColumn(name = "grupo_id", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
@@ -197,7 +201,7 @@ public class Concierto {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_gira", referencedColumnName = "id")
+    @JoinColumn(name = "gira_id", referencedColumnName = "id")
     public Gira getGira() {
         return gira;
     }
@@ -207,7 +211,7 @@ public class Concierto {
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_sala", referencedColumnName = "id")
+    @JoinColumn(name = "sala_id", referencedColumnName = "id")
     public Sala getSala() {
         return sala;
     }
@@ -218,6 +222,6 @@ public class Concierto {
 
     @Override
     public String toString() {
-        return " - " +ciudad + " " + fecha;
+        return " - " +nombre + " " + fecha;
     }
 }

@@ -3,10 +3,10 @@
   <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
-      <xy x="48" y="54" width="595" height="1085"/>
+      <xy x="48" y="54" width="1065" height="450"/>
     </constraints>
     <properties>
-      <preferredSize width="590" height="795"/>
+      <preferredSize width="840" height="350"/>
     </properties>
     <border type="none"/>
     <children>
@@ -30,30 +30,36 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="e7465" class="javax.swing.JButton" binding="button_save_addBand">
-                <constraints>
-                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Guardar"/>
-                </properties>
-              </component>
-              <component id="5723f" class="javax.swing.JButton" binding="button_cancel_addBand">
-                <constraints>
-                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Cancelar"/>
-                </properties>
-              </component>
-              <hspacer id="ae1dc">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-              </hspacer>
               <hspacer id="2f6ba">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="5" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="6f678" class="ownLibs.basic.CompButton" binding="button_save">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="save"/>
+                  <icon value="Guardar.png"/>
+                  <text value="Guardar"/>
+                  <toolTipText value="Guardar los datos."/>
+                </properties>
+              </component>
+              <component id="34f74" class="ownLibs.basic.CompButton" binding="button_cancel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="cancel"/>
+                  <icon value="Cancelar.png"/>
+                  <text value="Cancelar"/>
+                  <toolTipText value="Cancelar y salir."/>
+                </properties>
+              </component>
+              <hspacer id="45902">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
               </hspacer>
             </children>
@@ -63,7 +69,9 @@
       <grid id="e3588" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="823" height="721"/>
+          </grid>
         </constraints>
         <properties/>
         <border type="line"/>
@@ -78,105 +86,26 @@
             <rowspec value="center:max(d;4px):noGrow"/>
             <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="top:5dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
             <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="top:5dlu:noGrow"/>
             <rowspec value="center:18px:noGrow"/>
             <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:34px:noGrow"/>
-            <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:31px:noGrow"/>
-            <rowspec value="center:d:grow"/>
             <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
             <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="center:36px:noGrow"/>
-            <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:33px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:13px:grow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="center:d:grow"/>
-            <rowspec value="center:max(d;4px):noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
             <colspec value="fill:max(d;4px):noGrow"/>
-            <colspec value="fill:max(d;4px):noGrow"/>
-            <colspec value="left:4dlu:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:110px:grow"/>
             <colspec value="left:4dlu:noGrow"/>
-            <colspec value="fill:146px:grow"/>
+            <colspec value="fill:395px:grow"/>
             <colspec value="left:4dlu:noGrow"/>
-            <colspec value="fill:9px:noGrow"/>
             <colspec value="fill:max(d;4px):noGrow"/>
-            <colspec value="fill:249px:grow"/>
+            <colspec value="fill:249px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:max(d;4px):noGrow"/>
             <constraints>
@@ -185,206 +114,111 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="9fbf6" class="javax.swing.JLabel" binding="label_nombre_addBand">
+              <component id="9fbf6" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties>
-                  <text value="Nombre Grupo"/>
+                  <text value="Nombre Grupo *"/>
                 </properties>
               </component>
-              <component id="4b376" class="javax.swing.JLabel" binding="label_annoFormacion_addBand">
+              <component id="4b376" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties>
                   <text value="Año de Formación"/>
                 </properties>
               </component>
-              <component id="fefe" class="javax.swing.JLabel" binding="label_generoMusical_addBand">
+              <component id="fefe" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties>
                   <text value="Género Musical"/>
                 </properties>
               </component>
-              <component id="261a5" class="javax.swing.JLabel" binding="label_Discografica_addBand">
+              <component id="261a5" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties>
                   <text value="Discográfica"/>
                 </properties>
               </component>
-              <component id="ec6df" class="javax.swing.JTextField" binding="textField_nombre_addBand">
+              <component id="ec6df" class="javax.swing.JTextField" binding="textField_nombre">
                 <constraints>
-                  <grid row="4" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                  <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
                   </grid>
                   <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties/>
               </component>
-              <component id="acb99" class="javax.swing.JTextField" binding="textField_annoFormacion_addBand">
+              <component id="f06c3" class="javax.swing.JComboBox" binding="comboBox_discografica">
                 <constraints>
-                  <grid row="8" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                    <preferred-size width="150" height="-1"/>
-                  </grid>
-                  <forms defaultalign-horz="false"/>
-                </constraints>
-                <properties>
-                  <text value=""/>
-                </properties>
-              </component>
-              <component id="a9570" class="javax.swing.JTextField" binding="textField_generoMusical_addBand">
-                <constraints>
-                  <grid row="12" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                    <preferred-size width="150" height="-1"/>
-                  </grid>
-                  <forms defaultalign-horz="false"/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="f06c3" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
-                <constraints>
-                  <grid row="16" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <grid row="16" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties/>
               </component>
-              <scrollpane id="b6c4e">
+              <grid id="1fe9b" layout-manager="BorderLayout" hgap="0" vgap="0">
                 <constraints>
-                  <grid row="24" column="4" row-span="20" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <component id="60090" class="javax.swing.JList" binding="list_canciones_addBand">
-                    <constraints/>
-                    <properties/>
-                  </component>
-                </children>
-              </scrollpane>
-              <grid id="1fe9b" binding="panel_imagen_AA" layout-manager="BorderLayout" hgap="0" vgap="0">
-                <constraints>
-                  <grid row="6" column="10" row-span="11" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <grid row="6" column="7" row-span="11" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties/>
                 <border type="line"/>
                 <children>
-                  <component id="ac03a" class="javax.swing.JLabel" binding="label_image_addBand">
-                    <constraints border-constraint="West"/>
+                  <component id="ac03a" class="javax.swing.JLabel" binding="label_image">
+                    <constraints border-constraint="Center"/>
                     <properties>
-                      <text value="Label"/>
+                      <requestFocusEnabled value="true"/>
+                      <text value=""/>
                     </properties>
                   </component>
                 </children>
               </grid>
-              <component id="a042a" class="ownLibs.basic.CompButton">
+              <component id="bd6b2" class="ownLibs.basic.CompButton" binding="button_addImage">
                 <constraints>
-                  <grid row="20" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="add image"/>
+                  <text value="Añadir Imagen *"/>
+                  <toolTipText value="Añadir imagen desde Pc."/>
+                </properties>
+              </component>
+              <component id="6e91" class="javax.swing.JTextField" binding="textField_anno">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="dd160" class="javax.swing.JComboBox" binding="comboBox_generoMusical">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
                   <forms/>
                 </constraints>
                 <properties/>
               </component>
-              <component id="d37c3" class="ownLibs.basic.CompButton">
+              <component id="745e1" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="20" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <text value="* Campos Obligatorios"/>
+                </properties>
               </component>
-              <scrollpane id="3c11e">
-                <constraints>
-                  <grid row="24" column="10" row-span="20" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <component id="cd38d" class="javax.swing.JList" binding="list1" default-binding="true">
-                    <constraints/>
-                    <properties/>
-                  </component>
-                </children>
-              </scrollpane>
-              <component id="bd6b2" class="ownLibs.basic.CompButton">
-                <constraints>
-                  <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="d51b7" class="ownLibs.basic.CompButton">
-                <constraints>
-                  <grid row="47" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
-                </constraints>
-                <properties/>
-              </component>
-              <component id="e391" class="ownLibs.basic.CompButton">
-                <constraints>
-                  <grid row="47" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
-                </constraints>
-                <properties/>
-              </component>
-              <scrollpane id="abdb8">
-                <constraints>
-                  <grid row="50" column="4" row-span="20" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <component id="cb61b" class="javax.swing.JList" binding="list_conciertos_addBandlist1">
-                    <constraints/>
-                    <properties/>
-                  </component>
-                </children>
-              </scrollpane>
-              <scrollpane id="9fdcd">
-                <constraints>
-                  <grid row="50" column="10" row-span="20" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <component id="61e6e" class="javax.swing.JList" binding="list_discos_addBand">
-                    <constraints/>
-                    <properties/>
-                  </component>
-                </children>
-              </scrollpane>
-              <component id="8b654" class="ownLibs.basic.CompButton">
-                <constraints>
-                  <grid row="72" column="4" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
-                </constraints>
-                <properties/>
-              </component>
-              <scrollpane id="60032">
-                <constraints>
-                  <grid row="76" column="4" row-span="18" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                </constraints>
-                <properties/>
-                <border type="none"/>
-                <children>
-                  <component id="8fc6" class="javax.swing.JList" binding="list2" default-binding="true">
-                    <constraints/>
-                    <properties/>
-                  </component>
-                </children>
-              </scrollpane>
             </children>
           </grid>
         </children>

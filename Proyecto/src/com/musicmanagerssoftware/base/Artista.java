@@ -1,39 +1,52 @@
 package com.musicmanagerssoftware.base;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 public class Artista {
-    private Integer id;
+    private int id;
     private String nombreArtistico;
     private String nombre;
     private String primerApellido;
     private String segundoApellido;
     private String dni;
-    private Date fechaNacimiento;
+    private LocalDate fechaNacimiento;
     private String paisNacimiento;
-    private String numTelefono;
+    private int numTelefono;
     private String generoMusical;
     private String tipoMusico;
     private byte[] foto;
     private Grupo grupo;
+    private String discografica;
     private List<Cancion> canciones;
     private List<Disco> discos;
     private List<Concierto> conciertos;
     private List<Gira> giras;
     private List<Reunion> reuniones;
 
+    public Artista( String nombre, String primerApellido, String dni) {
+
+        this.nombre = nombre;
+        this.primerApellido = primerApellido;
+        this.dni = dni;
+    }
+
+    public Artista(){
+
+    }
+
     @Id
-    @Column(name = "id", nullable = false)
-    public Integer getId() {
+    @Column(name = "id",nullable = false)
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -89,11 +102,11 @@ public class Artista {
 
     @Basic
     @Column(name = "fechaNacimiento", nullable = true)
-    public Date getFechaNacimiento() {
+    public LocalDate getFechaNacimiento() {
         return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -109,11 +122,11 @@ public class Artista {
 
     @Basic
     @Column(name = "numTelefono", nullable = true, length = 15)
-    public String getNumTelefono() {
+    public int getNumTelefono() {
         return numTelefono;
     }
 
-    public void setNumTelefono(String numTelefono) {
+    public void setNumTelefono(int numTelefono) {
         this.numTelefono = numTelefono;
     }
 
@@ -138,6 +151,16 @@ public class Artista {
     }
 
     @Basic
+    @Column(name = "discografica", length = 25)
+    public String getDiscografica() {
+        return discografica;
+    }
+
+    public void setDiscografica(String discografica) {
+        this.discografica = discografica;
+    }
+
+    @Basic
     @Column(name = "foto", nullable = true)
     public byte[] getFoto() {
         return foto;
@@ -152,7 +175,7 @@ public class Artista {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Artista artista = (Artista) o;
-        return Objects.equals(id, artista.id) &&
+        return id == artista.id &&
                 Objects.equals(nombreArtistico, artista.nombreArtistico) &&
                 Objects.equals(nombre, artista.nombre) &&
                 Objects.equals(primerApellido, artista.primerApellido) &&
@@ -168,11 +191,12 @@ public class Artista {
 
     @Override
     public int hashCode() {
-         return  Objects.hash(id, nombreArtistico, nombre, primerApellido, segundoApellido, dni, fechaNacimiento, paisNacimiento, numTelefono, generoMusical, tipoMusico);
+         return  Objects.hash(id, nombreArtistico, nombre, primerApellido, segundoApellido, dni,
+                 fechaNacimiento, paisNacimiento, numTelefono, generoMusical, tipoMusico);
     }
 
     @ManyToOne
-    @JoinColumn(name = "id_grupo", referencedColumnName = "id")
+    @JoinColumn(name = "grupo_id", referencedColumnName = "id")
     public Grupo getGrupo() {
         return grupo;
     }
