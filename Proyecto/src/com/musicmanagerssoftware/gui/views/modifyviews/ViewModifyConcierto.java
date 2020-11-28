@@ -166,6 +166,7 @@ public class ViewModifyConcierto extends JDialog implements ModifyMethods,Action
         comboBoxUtil.fillComboArtista(dcmArtista,model);
         comboBoxUtil.fillComboGrupo(dcmGrupo,model);
         comboBoxUtil.fillComboGira(dcmGira,model);
+        comboBoxUtil.fillComboSalas(dcmSala,model);
     }
 
     @Override

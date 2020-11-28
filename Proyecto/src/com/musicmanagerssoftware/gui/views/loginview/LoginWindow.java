@@ -560,6 +560,7 @@ public class LoginWindow extends JDialog implements MouseListener, ItemListener 
         } else if (accepted) {
             JOptionPane.showMessageDialog(null,
                     configDictionary.getProperty("userAccepted"));
+            updateLanguageFile();
 
             if (usuarioActual.getTypeOfUser().equalsIgnoreCase("Lector")) {
                 rol = "Lector";
@@ -622,7 +623,6 @@ public class LoginWindow extends JDialog implements MouseListener, ItemListener 
     public void itemStateChanged(ItemEvent e) {
         if (e.getSource() == comboBox_Language) {
             if (e.getStateChange() == ItemEvent.SELECTED) {
-                updateLanguageFile();
                 translate();
             }
         }

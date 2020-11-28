@@ -9,7 +9,10 @@ package com.musicmanagerssoftware.base.enums;
 public enum Formato {
 
     NULL("Desconocido"),
-    VINILO("Vinilo");
+    VINILO("Vinilo"),
+    DISCO("Disco"),
+    CASSETTE("Cassette"),
+    DIGITAL("Digital");
 
     private String nombre;
 

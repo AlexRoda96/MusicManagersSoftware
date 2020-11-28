@@ -2,7 +2,12 @@ package com.musicmanagerssoftware.base.enums;
 
 public enum TipoSala {
 
-    TEATRO("Teatro");
+    TEATRO("Teatro"),
+    SALACONCIERTOS("Sala de conciertos"),
+    AUDITORIO("Auditorio"),
+    ESTADIO("Estadio"),
+    PABELLON("Pabellon"),
+    CARPA("Carpa");
 
     String tipo;
 

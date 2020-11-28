@@ -142,12 +142,12 @@ public class ViewModifySala extends JDialog implements ModifyMethods,ActionListe
     @Override
     public void showData() {
         salaSeleccionada = (Sala) list_sala.getSelectedValue();
-        textField_nombre.setText(salaSeleccionada.getNombre());
         textField_ciudad.setText(salaSeleccionada.getCiudad());
         comboBox_pais.setSelectedItem(salaSeleccionada.getPais());
         textField_precio.setText(salaSeleccionada.getPrecioAlquiler().toString());
         textField_numTlfn.setText(salaSeleccionada.getNumeroTelef().toString());
         textField_aforo.setText(salaSeleccionada.getAforoMax().toString());
+        textField_direccion.setText(salaSeleccionada.getDireccion());
         comboBox_tipoSala.setSelectedItem(salaSeleccionada.getTipoSala());
         lbl_imagen.setIcon(imageUtil.convertirDeByteAImage(null,null,null,null,null,null,salaSeleccionada,lbl_imagen));
     }

@@ -170,9 +170,9 @@ public class ViewModifyArtista extends JDialog implements ListSelectionListener,
         artistaSeleccionado = (Artista) list_artistas.getSelectedValue();
         textField_nombreArt.setText(artistaSeleccionado.getNombreArtistico());
         textField_nombre.setText(artistaSeleccionado.getNombre());
-        textField_primerApellido.setText(artistaSeleccionado.getNombre());
-        textField_segundoApellido.setText(artistaSeleccionado.getNombre());
-        textField_dni.setText(artistaSeleccionado.getNombre());
+        textField_primerApellido.setText(artistaSeleccionado.getPrimerApellido());
+        textField_segundoApellido.setText(artistaSeleccionado.getSegundoApellido());
+        textField_dni.setText(artistaSeleccionado.getDni());
         datePicker_fechaNacimiento.setDate(artistaSeleccionado.getFechaNacimiento());
         comboBox_nacionalidad.setSelectedItem(artistaSeleccionado.getPaisNacimiento());
         textField_numTfn.setText(String.valueOf(artistaSeleccionado.getNumTelefono()));

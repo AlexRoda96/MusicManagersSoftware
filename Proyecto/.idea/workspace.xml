@@ -20,443 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574b3c7a-8441-4083-9bdb-43854d987e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Proyecto_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ico.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/img.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libreriasInformes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/DiscoInforme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeArtistas.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeArtistas.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeArtistas.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeDiscos.jasper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeDiscos.jrxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/InformeDiscos.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/MyReports/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/MyReports/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/MyReports/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/MyReports/tree1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informes/MyReports/tree2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Artista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Cancion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Concierto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Disco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Gira.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Grupo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Reunion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/Sala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/account/User.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/account/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/account/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/account/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/Country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/Discografica.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/Formato.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/GeneroMusical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/TipoSala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/TiposMusicos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/enums/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/base/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/ImagenAmpliadaView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/ArtistPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/BandPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/ConcertPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/DiscPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/PanelCancion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/PanelGira.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/mainpanels/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/components/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/Model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/DeleteViewController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/MainViewController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/MenuViewController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/controllers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/MainView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/MenuView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/addviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/adminviews/AdminView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/adminviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/adminviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/adminviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/deleteviews/DeleteView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/deleteviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/deleteviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/deleteviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/estadisticasviews/Estadisticas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/estadisticasviews/Informes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/estadisticasviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/estadisticasviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/estadisticasviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/helpviews/AboutViews.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/helpviews/VersionsView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/helpviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/helpviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/helpviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/loginview/LoginWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/loginview/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/loginview/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/loginview/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyArtista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyCancion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyConcierto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyDisco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGira.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGrupo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/modifyviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/registerview/RegisterWindow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/registerview/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/registerview/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/registerview/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/searchviews/SearchView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/searchviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/searchviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/searchviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/AccountEditView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/AccountView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/SettingsView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/gui/views/settingviews/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/interfaces/MethodsPanels.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/interfaces/ModifyMethods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/interfaces/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/interfaces/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/interfaces/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/pruebas/PruebasUnitariasControlador.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/pruebas/PruebasUnitariasModelo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/pruebas/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/pruebas/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/pruebas/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/AlertUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/ComboBoxUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/DataBaseUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/HibernateUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/ImageUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/ListUtil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/com/musicmanagerssoftware/util/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/overview-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/language.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/login.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/ArroeLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/ArrowRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/Cancelar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/Conectar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/Desconectar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/DiscoInforme.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/Loginn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/Modificar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ico/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/fondos/BackgroundLogin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/language_Ch.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/language_En.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/language_Es.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/language_Ge.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/language_It.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jcalendar-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/commons-digester-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/commons-logging-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/commons.collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jasperreports-6.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jasperreports-6.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jasperreports-fonts-6.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jcommon-1.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jfreechart-1.0.19-experimental.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jfreechart-1.0.19-swt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jfreechart-1.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/jfreesvg-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/junit-4.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/orsoncharts-1.4-eval-nofx.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/orsonpdf-1.6-eval.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libreriasInformes/swtgraphics2d.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preferencias.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/account/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/Discografica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/Formato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/GeneroMusical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TipoSala.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TiposMusicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/adminviews/AdminView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/adminviews/AdminView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/estadisticasviews/Estadisticas.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/estadisticasviews/Estadisticas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/estadisticasviews/Informes.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/estadisticasviews/Informes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/helpviews/AboutViews.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/helpviews/AboutViews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/helpviews/VersionsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/loginview/LoginWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/registerview/RegisterWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/searchviews/SearchView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/searchviews/SearchView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/AccountEditView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/AccountEditView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/AccountView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/AccountView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/SettingsView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/settingviews/SettingsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/interfaces/ModifyMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/pruebas/PruebasUnitariasControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/pruebas/PruebasUnitariasModelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/AlertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/ComboBoxUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/DataBaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernateUser.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Librerias/out/artifacts/ownLibs_jar/ar-ownLibs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/out/artifacts/ownLibs_jar/ar-ownLibs.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/out/production/Librerias/ownLibs/menu/CompMenuItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Librerias/src/ownLibs/menu/CompMenuItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proyect/Proyect.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proyect/Proyecto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/Idioma.png" beforeDir="false" afterPath="$PROJECT_DIR$/ico/Idioma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/artista.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/cancion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/cancion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/concierto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/disco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/gira.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/grupo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/reunion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ico/sala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Artista.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Cancion.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Grupo.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ar-ownLibs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ar-ownLibs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Informes/MyReports/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Informes/MyReports/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/language.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/language.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/login.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/login.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/Proyecto.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/Proyecto.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/ico/Idioma.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Proyecto_jar/ico/Idioma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/DataBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Artista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Artista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Cancion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Cancion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Concierto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Concierto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Disco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Disco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Gira.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Gira.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Grupo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Grupo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Reunion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Reunion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Sala.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/base/Sala.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/Hilo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ArtistPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/BandPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/ConcertPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/DiscPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelCancion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/componentes/panels/PanelGira.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/DeleteViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/controllers/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/MenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/interfaces/MethodsPanels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/interfaces/MethodsPanels.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/util/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/util/HibernateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/com/musicmanagerssoftware/util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyecto/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyecto/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/DataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Artista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Concierto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Concierto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Gira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Gira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Grupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/Hilo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/ImagenAmpliadaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/ImagenAmpliadaView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/ArtistPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/ArtistPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/BandPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/BandPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/ConcertPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/ConcertPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/DiscPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/DiscPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelCancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/PanelCancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/componentes/panels/PanelGira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/components/mainpanels/PanelGira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/DeleteViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/DeleteViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MenuViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddArtista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddCancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddConcierto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddDisco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddGrupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/addviews/ViewAddSala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/deleteViews/DeleteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/deleteviews/DeleteView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyArtista.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyArtista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyArtista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyCancion.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyCancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyCancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyConcierto.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyConcierto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyConcierto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyDisco.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyDisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyDisco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGira.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGrupo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifyGrupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyGrupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyViews/ViewModifySala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/Formato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/Formato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TipoSala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TipoSala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TiposMusicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/base/enums/TiposMusicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/controllers/MainViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/adminviews/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/adminviews/AdminView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/loginview/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/loginview/LoginWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyArtista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyArtista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyConcierto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifyConcierto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/musicmanagerssoftware/gui/views/modifyviews/ViewModifySala.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scripts Sql/musicDb.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -497,7 +77,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="481" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/musicmanagerssoftware/pruebas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -527,19 +107,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Proyecto" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -576,6 +143,7 @@
       <workItem from="1606420832682" duration="3262000" />
       <workItem from="1606441774188" duration="19021000" />
       <workItem from="1606489644950" duration="6842000" />
+      <workItem from="1606564280041" duration="3574000" />
     </task>
     <servers />
   </component>
@@ -674,34 +242,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="666" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1606504379740" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1606504508167">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="220" key="GridCell.Tab.0.bottom" timestamp="1606568149109">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state width="1323" height="24" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605440727296" />
     <state width="1323" height="24" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605443411491" />
-    <state width="1557" height="152" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606217343495" />
+    <state width="1557" height="220" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1606568149109" />
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1606504508167" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1606504508167">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1600.870@1920.0.1600.870" timestamp="1606565763647" />
+    <state width="1557" height="220" key="GridCell.Tab.0.center" timestamp="1606568149109">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state width="1323" height="24" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
     <state width="1323" height="24" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
-    <state width="1557" height="152" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606217343495" />
+    <state width="1557" height="220" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1606568149109" />
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1606504508167" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1606504508166">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="220" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1600.870@1920.0.1600.870" timestamp="1606565763646" />
+    <state width="1557" height="220" key="GridCell.Tab.0.left" timestamp="1606568149109">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state width="1323" height="24" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
     <state width="1323" height="24" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
-    <state width="1557" height="152" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606217343495" />
+    <state width="1557" height="220" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1606568149109" />
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1606504508166" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1606504508167">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="220" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1600.870@1920.0.1600.870" timestamp="1606565763645" />
+    <state width="1557" height="220" key="GridCell.Tab.0.right" timestamp="1606568149109">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state width="1323" height="24" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605440727295" />
     <state width="1323" height="24" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605443411490" />
-    <state width="1557" height="152" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606217343495" />
+    <state width="1557" height="220" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1606568149109" />
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1600.870@0.0.1920.1050" timestamp="1606504508167" />
+    <state width="1557" height="220" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1600.870@1920.0.1600.870" timestamp="1606565763646" />
     <state width="1877" height="2" key="GridCell.Tab.1.bottom" timestamp="1606378048518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -3,7 +3,10 @@ package com.musicmanagerssoftware.base.enums;
 public enum TiposMusicos {
 
     NULL("Desconocido"),
-    VOCALISTA("Vocalista");
+    VOCALISTA("Vocalista"),
+    GUITARRISTA("Guitarrista"),
+    BATERIA("Batería"),
+    BAJISTA("Bajista");
 
     private String tipo;
 

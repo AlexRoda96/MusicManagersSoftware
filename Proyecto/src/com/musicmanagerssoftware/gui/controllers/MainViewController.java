@@ -1139,6 +1139,7 @@ public class MainViewController implements  MouseListener, ListSelectionListener
                 mainView.menuView.menuItemDisconnect.setVisible(false);
                 mainView.menuView.menuItemConecct.setVisible(true);
                 mainView.dtmArtistas.setRowCount(0);
+                limpiarCampos();
                 break;
 
             case "Account":

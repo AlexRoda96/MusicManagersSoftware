@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>net.sf.jasperreports.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>InformeArtistas.jrxml</name>
+			<type>1</type>
+			<location>C:/Users/alexl/Documents/MusicManagerProject/MusicManagersSoftware/Proyecto/out/artifacts/Proyecto_jar/Informes/InformeArtistas.jrxml</location>
+		</link>
+	</linkedResources>
 </projectDescription>
