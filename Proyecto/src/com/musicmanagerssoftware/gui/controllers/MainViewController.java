@@ -52,15 +52,15 @@ public class MainViewController implements  MouseListener, ListSelectionListener
     private Concierto conciertoSeleccionado;
     private Gira giraSeleccionada;
     private DeleteView deleteView;
-    File guardar;
-    Properties config;
-    ComboBoxUtil comboBoxUtil;
-    ListUtil listUtil;
-    AlertUtil alertUtil;
-    ImageUtil imageUtil;
+    private File guardar;
+    private Properties config;
+    private ComboBoxUtil comboBoxUtil;
+    private ListUtil listUtil;
+    private AlertUtil alertUtil;
+    private ImageUtil imageUtil;
     private String rol;
-    User usuarioActual;
-
+    private User usuarioActual;
+    private boolean conectado;
 
     /**
      * Constructor
@@ -119,9 +119,15 @@ public class MainViewController implements  MouseListener, ListSelectionListener
         if(config.getProperty("conectar").equalsIgnoreCase("true")){
             dataBaseUtil.conectar();
             cargarArtistas();
+            conectado=true;
+            mainView.menuView.menuHerramientas.setEnabled(true);
+            mainView.menuView.menuObjeto.setEnabled(true);
             mainView.menuView.menuItemConecct.setVisible(false);
         }else if(config.getProperty("conectar").equalsIgnoreCase("false")){
+            mainView.menuView.menuHerramientas.setEnabled(false);
+            mainView.menuView.menuObjeto.setEnabled(false);
             mainView.menuView.menuItemDisconnect.setVisible(false);
+            conectado=false;
         }
     }
 
@@ -958,6 +964,7 @@ public class MainViewController implements  MouseListener, ListSelectionListener
         return icono;
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
         String comando = e.getActionCommand();
@@ -1131,6 +1138,9 @@ public class MainViewController implements  MouseListener, ListSelectionListener
                 cargarArtistas();
                 mainView.menuView.menuItemConecct.setVisible(false);
                 mainView.menuView.menuItemDisconnect.setVisible(true);
+                mainView.menuView.menuHerramientas.setEnabled(true);
+                mainView.menuView.menuObjeto.setEnabled(true);
+                conectado=true;
                 break;
 
             case "Menu Disconnect":
@@ -1138,7 +1148,10 @@ public class MainViewController implements  MouseListener, ListSelectionListener
                 dataBaseUtil.desconectar();
                 mainView.menuView.menuItemDisconnect.setVisible(false);
                 mainView.menuView.menuItemConecct.setVisible(true);
+                mainView.menuView.menuHerramientas.setEnabled(false);
+                mainView.menuView.menuObjeto.setEnabled(false);
                 mainView.dtmArtistas.setRowCount(0);
+                conectado=false;
                 limpiarCampos();
                 break;
 

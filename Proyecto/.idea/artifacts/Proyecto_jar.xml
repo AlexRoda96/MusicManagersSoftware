@@ -17,6 +17,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/commons-digester-2.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/jfreechart-1.0.19-swt.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/commons-beanutils-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/itext-2.1.7.js1-sources.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/commons.collections-3.2.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/jasperreports-fonts-6.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libreriasInformes/orsoncharts-1.4-eval-nofx.jar" path-in-jar="/" />

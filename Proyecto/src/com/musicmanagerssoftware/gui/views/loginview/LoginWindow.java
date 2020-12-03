@@ -250,7 +250,7 @@ public class LoginWindow extends JDialog implements MouseListener, ItemListener 
         comboBox_Language.setBackground(new Color(102, 102, 102));
         comboBox_Language.setForeground(Color.white);
         comboBox_Language.setModel(new DefaultComboBoxModel
-                (new String[]{"Chinese", "English", "Germany", "Italian", "Spanish"}));
+                (new String[]{"English", "Germany", "Italian", "Spanish"}));
         comboBox_Language.setOpaque(false);
         contentPane.add(comboBox_Language);
         comboBox_Language.setBounds(640, 20, 100, 20);
@@ -623,6 +623,7 @@ public class LoginWindow extends JDialog implements MouseListener, ItemListener 
     public void itemStateChanged(ItemEvent e) {
         if (e.getSource() == comboBox_Language) {
             if (e.getStateChange() == ItemEvent.SELECTED) {
+                updateLanguageFile();
                 translate();
             }
         }

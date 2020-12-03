@@ -267,24 +267,40 @@ public class RegisterWindow extends JDialog{
     }
 
     private void addUser(){
-        boolean ok=true;
+        boolean ok=false;
         User user = new User();
-        user.setNombre(textField_Name.getText());
-        user.setApellidos(textField_LastName.getText());
-        user.setuserName(textField_User.getText());
-        if(textField_Email==null){
-            ok=false;
-        }else{
-            user.setEmail(textField_Email.getText());
+        for (User users:model.getUsuario()) {
+            if(users.getuserName().equalsIgnoreCase(textField_User.getText())){
+                ok=false;
+            }else{
+                ok=true;
+            }
         }
-        user.setTypeOfUser("Lector");
-        if(passwordField_Password.getText().equals(passwordField_RepeatPassword.getText())) {
-            user.setUserPassword(passwordField_Password.getText());
-            model.altaUsuario(user);
+
+        if(ok==false){
+            AlertUtil.errorAlert("El usuario ya existe");
+            textField_User.setText("");
         }else{
-            AlertUtil.errorAlert("Las contraseñas no coinciden");
-            clear();
+            user.setNombre(textField_Name.getText());
+            user.setApellidos(textField_LastName.getText());
+            user.setuserName(textField_User.getText());
+            if(textField_Email==null){
+                ok=false;
+            }else{
+                user.setEmail(textField_Email.getText());
+            }
+            user.setTypeOfUser("Lector");
+            if(passwordField_Password.getText().equals(passwordField_RepeatPassword.getText())) {
+                user.setUserPassword(passwordField_Password.getText());
+                model.altaUsuario(user);
+                dispose();
+            }else{
+                AlertUtil.errorAlert("Las contraseñas no coinciden");
+                passwordField_RepeatPassword.setText("");
+                passwordField_Password.setText("");
+            }
         }
+
     }
 
     private void clear(){

@@ -25,7 +25,7 @@
               <forms/>
             </constraints>
             <properties>
-              <text value="Informe Artistas"/>
+              <text value="Informe Discos"/>
             </properties>
           </component>
           <component id="4ddc1" class="javax.swing.JButton" binding="informe2">
@@ -34,7 +34,7 @@
               <forms/>
             </constraints>
             <properties>
-              <text value="Informe Discos"/>
+              <text value="Informe Grupos"/>
             </properties>
           </component>
         </children>

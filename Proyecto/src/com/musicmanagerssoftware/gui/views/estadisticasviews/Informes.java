@@ -1,6 +1,7 @@
 package com.musicmanagerssoftware.gui.views.estadisticasviews;
 
 
+
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
@@ -47,14 +48,14 @@ public class Informes extends JDialog {
         informe1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                generateReport("Informes/InformeArtistas.jasper", "Informes/InformeArtistas.pdf");
+                generateReport("Informes/InformeDisco.jasper", "Informes/InformeDisco.pdf");
             }
         });
 
         informe2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                generateReport("Informes/InformeDiscos.jasper", "Informes/InformeDiscos.pdf");
+                generateReport("Informes/Grupos.jasper", "Informes/Grupos.pdf");
             }
         });
 
@@ -94,18 +95,6 @@ public class Informes extends JDialog {
         } catch (JRException e2) {
             // TODO Auto-generated catch block
             e2.printStackTrace();
-        }
-
-        JRPdfExporter exp=new JRPdfExporter();
-        exp.setExporterInput(new SimpleExporterInput(jasperPrint));
-        exp.setExporterOutput(new SimpleOutputStreamExporterOutput(pdf));
-        SimplePdfExporterConfiguration conf=new SimplePdfExporterConfiguration();
-        exp.setConfiguration(conf);
-        try {
-            exp.exportReport();
-        } catch (JRException e1) {
-            // TODO Auto-generated catch block
-            System.out.println("Error al exportar");
         }
 
         JasperViewer jasperViewver=new JasperViewer(jasperPrint,false);
